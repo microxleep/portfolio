@@ -1,0 +1,112 @@
+/* ========================================================
+   MUHAMMAD RIDHA IRSYAD — PORTFOLIO CUSTOM STYLES
+   ======================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+
+:root {
+  --brand-primary: #14b8a6;
+  --brand-secondary: #0d9488;
+  --dark-bg: #080b11;
+  --dark-card: #0f141f;
+  --dark-border: #1f2a3d;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #080b11;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 9999px;
+  border: 2px solid #080b11;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0d9488;
+}
+
+/* Custom scrollbar inside modal */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #2dd4bf55;
+  border-radius: 4px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Active Nav Link */
+.nav-link.active {
+  color: #2dd4bf;
+  background-color: rgba(20, 184, 166, 0.1);
+}
+
+/* Filter Button Styling */
+.filter-btn {
+  background-color: #0f141f;
+  color: #94a3b8;
+  border: 1px solid #1f2a3d;
+}
+
+.filter-btn:hover {
+  color: #f8fafc;
+  border-color: rgba(45, 212, 191, 0.4);
+  background-color: #151d2c;
+}
+
+.filter-btn.active {
+  background: linear-gradient(135deg, rgba(20, 184, 166, 0.2) 0%, rgba(13, 148, 136, 0.3) 100%);
+  color: #5eead4;
+  border-color: rgba(45, 212, 191, 0.6);
+  box-shadow: 0 0 15px rgba(20, 184, 166, 0.15);
+}
+
+/* Portfolio item transitions */
+.portfolio-item {
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.portfolio-item.hidden-item {
+  display: none;
+  opacity: 0;
+  transform: scale(0.95);
+}
+
+.portfolio-item.show-item {
+  display: flex;
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Card hover glow effects */
+.project-trigger:hover {
+  box-shadow: 0 10px 30px -10px rgba(20, 184, 166, 0.2);
+}
+
+/* Subtle background grid pattern */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 32px 32px;
+  pointer-events: none;
+  z-index: -5;
+}
+

@@ -1,0 +1,1948 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhammad Ridha Irsyad — Senior Graphic Designer & Visual Specialist</title>
+  <meta name="description" content="Portfolio resmi Muhammad Ridha Irsyad (IRSYAD) - Graphic Designer berpengalaman 5+ tahun dalam Logo Design, Brand Identity, Social Media Management, UI Design, dan Visual Communication.">
+  <meta name="keywords" content="Muhammad Ridha Irsyad, Graphic Designer Jakarta, Portfolio Desainer Grafis, Brand Identity, Logo Designer, UI Designer">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Muhammad Ridha Irsyad — Graphic Designer Portfolio">
+  <meta property="og:description" content="Transforming ideas into attractive, impactful, and effective visuals. 5+ Years Experience.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Outfit & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#f0fdfa',
+              100: '#ccfbf1',
+              200: '#99f6e4',
+              300: '#5eead4',
+              400: '#2dd4bf',
+              500: '#14b8a6', // Primary Teal
+              600: '#0d9488',
+              700: '#0f766e',
+              800: '#115e59',
+              900: '#134e4a',
+              950: '#042f2e',
+            },
+            dark: {
+              bg: '#080b11',
+              card: '#0f141f',
+              surface: '#151d2c',
+              border: '#1f2a3d',
+              muted: '#94a3b8'
+            }
+          },
+          fontFamily: {
+            display: ['Outfit', 'sans-serif'],
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+          },
+          animation: {
+            'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            'float': 'float 6s ease-in-out infinite',
+          },
+          keyframes: {
+            float: {
+              '0%, 100%': { transform: 'translateY(0)' },
+              '50%': { transform: 'translateY(-10px)' },
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-[#080b11] text-slate-100 font-sans antialiased selection:bg-brand-500/20 selection:text-brand-300 relative overflow-x-hidden">
+
+  <!-- Subtle ambient glow background lights -->
+  <div class="fixed top-0 left-1/4 -translate-x-1/2 w-[600px] h-[600px] bg-brand-500/10 rounded-full blur-[140px] pointer-events-none -z-10"></div>
+  <div class="fixed bottom-1/4 right-10 w-[500px] h-[500px] bg-cyan-600/10 rounded-full blur-[150px] pointer-events-none -z-10"></div>
+  <div class="fixed top-1/2 left-3/4 w-[450px] h-[450px] bg-emerald-500/5 rounded-full blur-[130px] pointer-events-none -z-10"></div>
+
+  <!-- ========================================================
+       1. NAVBAR
+       ======================================================== -->
+  <header id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-[#080b11]/80 backdrop-blur-md border-b border-dark-border/40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <!-- Logo / Brand -->
+      <a href="#home" class="group flex items-center focus:outline-none" aria-label="Muhammad Ridha Irsyad - IRSYAD.GD">
+        <img 
+          src="assets/logo.png" 
+          alt="Muhammad Ridha Irsyad (IRSYAD.GD)" 
+          class="h-6 sm:h-7 md:h-[30px] w-auto object-contain transition-all duration-300 group-hover:scale-[1.02] filter drop-shadow-[0_2px_8px_rgba(20,184,166,0.15)] group-hover:drop-shadow-[0_4px_14px_rgba(45,212,191,0.3)]"
+        />
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden md:flex items-center gap-1 lg:gap-2">
+        <a href="#home" class="nav-link px-3.5 py-2 text-sm font-medium text-slate-300 hover:text-white rounded-lg hover:bg-slate-800/40 transition-all">Home</a>
+        <a href="#about" class="nav-link px-3.5 py-2 text-sm font-medium text-slate-300 hover:text-white rounded-lg hover:bg-slate-800/40 transition-all">About</a>
+        <a href="#experience" class="nav-link px-3.5 py-2 text-sm font-medium text-slate-300 hover:text-white rounded-lg hover:bg-slate-800/40 transition-all">Experience</a>
+        <a href="#portfolio" class="nav-link px-3.5 py-2 text-sm font-medium text-slate-300 hover:text-white rounded-lg hover:bg-slate-800/40 transition-all">Portfolio</a>
+        <a href="#skills" class="nav-link px-3.5 py-2 text-sm font-medium text-slate-300 hover:text-white rounded-lg hover:bg-slate-800/40 transition-all">Software & Skills</a>
+        <a href="#contact" class="nav-link px-3.5 py-2 text-sm font-medium text-slate-300 hover:text-white rounded-lg hover:bg-slate-800/40 transition-all">Contact</a>
+      </nav>
+
+      <!-- Action Button & Mobile Toggle -->
+      <div class="flex items-center gap-3">
+        <a href="#contact" class="hidden sm:inline-flex items-center gap-2 px-4 py-2 text-xs lg:text-sm font-semibold text-brand-300 bg-brand-500/10 hover:bg-brand-500/20 border border-brand-500/30 rounded-xl transition-all hover:scale-[1.02] shadow-sm">
+          <span>Let's Talk</span>
+          <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+        </a>
+
+        <!-- Mobile Menu Button -->
+        <button id="mobile-toggle" aria-label="Open menu" class="md:hidden p-2.5 rounded-xl bg-dark-card border border-dark-border text-slate-300 hover:text-white hover:border-brand-500/40 transition-colors">
+          <i data-lucide="menu" id="menu-icon" class="w-5 h-5"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div id="mobile-menu" class="hidden md:hidden border-b border-dark-border/60 bg-[#0c1017]/95 backdrop-blur-xl px-6 py-6 space-y-3">
+      <a href="#home" class="mobile-nav-link block py-2 text-slate-300 font-medium hover:text-brand-400">Home</a>
+      <a href="#about" class="mobile-nav-link block py-2 text-slate-300 font-medium hover:text-brand-400">About</a>
+      <a href="#experience" class="mobile-nav-link block py-2 text-slate-300 font-medium hover:text-brand-400">Experience</a>
+      <a href="#portfolio" class="mobile-nav-link block py-2 text-slate-300 font-medium hover:text-brand-400">Portfolio</a>
+      <a href="#skills" class="mobile-nav-link block py-2 text-slate-300 font-medium hover:text-brand-400">Software & Skills</a>
+      <a href="#contact" class="mobile-nav-link block py-2 text-slate-300 font-medium hover:text-brand-400">Contact</a>
+      <div class="pt-4 border-t border-dark-border/60 flex flex-col gap-3">
+        <a href="#contact" class="flex items-center justify-center gap-2 w-full py-3 bg-brand-500 text-slate-950 font-semibold rounded-xl text-sm">
+          <span>Hubungi Saya</span>
+          <i data-lucide="send" class="w-4 h-4"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================
+       2. HERO SECTION
+       ======================================================== -->
+  <section id="home" class="pt-32 pb-20 md:pt-44 md:pb-32 relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+        
+        <!-- Left: Intro Copy -->
+        <div class="lg:col-span-7 space-y-6 text-left">
+          
+          <!-- Badge Status -->
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand-500/10 border border-brand-500/25 text-brand-300 text-xs font-medium tracking-wide">
+            <span class="w-2 h-2 rounded-full bg-brand-400 animate-pulse"></span>
+            <span>Available for Freelance & Creative Collaborations</span>
+          </div>
+
+          <!-- Headline -->
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-display font-extrabold tracking-tight text-white leading-[1.12]">
+            Hello, you can call me <span class="bg-gradient-to-r from-brand-300 via-brand-400 to-teal-200 bg-clip-text text-transparent">Irsyad</span>.
+          </h1>
+
+          <!-- Sub-headline / Narrative -->
+          <p class="text-base sm:text-lg lg:text-xl text-slate-300 leading-relaxed font-normal max-w-2xl">
+            A <strong class="text-white font-semibold">Graphic Designer with experience more than 5 years</strong>. Have a deep interest in visual communication and love the process of transforming ideas into attractive and effective visuals.
+          </p>
+
+          <p class="text-sm sm:text-base text-slate-400 leading-relaxed italic border-l-2 border-brand-500/60 pl-4 py-1 max-w-2xl bg-dark-card/40 rounded-r-lg">
+            “I believe design isn't just about aesthetics, but also about conveying a message clearly to a wide audience.”
+          </p>
+
+          <!-- CTA Buttons -->
+          <div class="pt-2 flex flex-wrap items-center gap-4">
+            <a href="#portfolio" class="px-7 py-3.5 rounded-xl font-semibold text-slate-950 bg-gradient-to-r from-brand-400 to-teal-400 hover:from-brand-300 hover:to-teal-300 transition-all duration-300 transform hover:-translate-y-0.5 shadow-lg shadow-brand-500/25 flex items-center gap-2 group text-sm sm:text-base">
+              <span>Lihat Portofolio</span>
+              <i data-lucide="arrow-right" class="w-4 h-4 transition-transform group-hover:translate-x-1"></i>
+            </a>
+
+            <a href="#contact" class="px-7 py-3.5 rounded-xl font-semibold text-slate-200 bg-dark-card hover:bg-dark-surface border border-dark-border hover:border-brand-500/40 transition-all duration-300 flex items-center gap-2 text-sm sm:text-base group">
+              <i data-lucide="mail" class="w-4 h-4 text-brand-400"></i>
+              <span>Hubungi Saya</span>
+            </a>
+          </div>
+
+          <!-- Quick Stats Highlights -->
+          <div class="pt-8 grid grid-cols-3 gap-4 border-t border-dark-border/60 max-w-lg">
+            <div>
+              <div class="font-display font-extrabold text-2xl sm:text-3xl text-white">5+</div>
+              <div class="text-xs text-slate-400 font-medium">Tahun Pengalaman</div>
+            </div>
+            <div>
+              <div class="font-display font-extrabold text-2xl sm:text-3xl text-brand-400">30+</div>
+              <div class="text-xs text-slate-400 font-medium">Proyek Selesai</div>
+            </div>
+            <div>
+              <div class="font-display font-extrabold text-2xl sm:text-3xl text-white">100%</div>
+              <div class="text-xs text-slate-400 font-medium">Client Satisfaction</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Designer Visual / Creative Frame -->
+        <div class="lg:col-span-5 relative flex items-center justify-center">
+          <div class="relative w-full max-w-md">
+            
+            <!-- Glow background orb -->
+            <div class="absolute -inset-1 bg-gradient-to-tr from-brand-600 via-teal-400 to-cyan-500 rounded-3xl blur-2xl opacity-20 animate-pulse-slow"></div>
+
+            <!-- Main Card Wrapper -->
+            <div class="relative bg-dark-card/90 border border-dark-border rounded-3xl p-6 sm:p-8 backdrop-blur-xl shadow-2xl overflow-hidden">
+              <!-- Watermark pattern -->
+              <div class="absolute -right-8 -bottom-8 w-44 h-44 rounded-full border border-brand-500/10 pointer-events-none"></div>
+              <div class="absolute -right-16 -bottom-16 w-60 h-60 rounded-full border border-brand-500/5 pointer-events-none"></div>
+
+              <!-- Header inside card -->
+              <div class="flex items-center justify-between pb-6 border-b border-dark-border/70">
+                <div class="flex items-center gap-3">
+                  <div class="w-3 h-3 rounded-full bg-rose-500/80"></div>
+                  <div class="w-3 h-3 rounded-full bg-amber-500/80"></div>
+                  <div class="w-3 h-3 rounded-full bg-emerald-500/80"></div>
+                </div>
+                <span class="text-[11px] font-mono tracking-wider text-slate-500 uppercase">visual.specialist.ai</span>
+              </div>
+
+              <!-- Profile Card Content -->
+              <div class="mt-6 flex flex-col items-center text-center">
+                <!-- Avatar Visual Graphic -->
+                <div class="relative w-28 h-28 sm:w-32 sm:h-32 rounded-2xl p-1 bg-gradient-to-br from-brand-400 via-teal-600 to-slate-800 shadow-xl mb-4 group">
+                  <div class="w-full h-full rounded-[14px] bg-[#0c121e] flex flex-col items-center justify-center relative overflow-hidden">
+                    <span class="font-display font-black text-4xl text-brand-300">MRI</span>
+                    <span class="text-[10px] uppercase font-mono tracking-widest text-slate-400 mt-1">IRSYAD</span>
+                  </div>
+                </div>
+
+                <h3 class="font-display font-bold text-xl text-white">Muhammad Ridha Irsyad</h3>
+                <p class="text-xs font-medium text-brand-400 mt-0.5">Senior Graphic & Brand Designer</p>
+
+                <!-- Chips inside card -->
+                <div class="mt-5 flex flex-wrap justify-center gap-1.5 text-xs text-slate-300">
+                  <span class="px-2.5 py-1 rounded-md bg-dark-surface border border-dark-border">🎨 Brand Identity</span>
+                  <span class="px-2.5 py-1 rounded-md bg-dark-surface border border-dark-border">✒️ Logo Mastery</span>
+                  <span class="px-2.5 py-1 rounded-md bg-dark-surface border border-dark-border">📱 Social Media</span>
+                  <span class="px-2.5 py-1 rounded-md bg-dark-surface border border-dark-border">💻 UI/UX</span>
+                </div>
+
+                <!-- Verified Badge & Tools row -->
+                <div class="mt-6 w-full pt-4 border-t border-dark-border/60 flex items-center justify-between text-xs text-slate-400">
+                  <div class="flex items-center gap-1.5 text-emerald-400">
+                    <i data-lucide="check-circle-2" class="w-4 h-4"></i>
+                    <span>Verified Professional</span>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <span class="px-1.5 py-0.5 rounded bg-brand-950/80 border border-brand-800/60 text-brand-300 font-mono text-[10px]">Ai</span>
+                    <span class="px-1.5 py-0.5 rounded bg-blue-950/80 border border-blue-800/60 text-blue-300 font-mono text-[10px]">Ps</span>
+                    <span class="px-1.5 py-0.5 rounded bg-pink-950/80 border border-pink-800/60 text-pink-300 font-mono text-[10px]">Id</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Floating floating micro-badge -->
+            <div class="absolute -bottom-4 -left-4 sm:-bottom-5 sm:-left-5 bg-dark-surface/90 border border-brand-500/30 rounded-2xl p-3.5 backdrop-blur-xl shadow-xl flex items-center gap-3 animate-float">
+              <div class="w-10 h-10 rounded-xl bg-brand-500/20 text-brand-400 flex items-center justify-center font-bold">
+                <i data-lucide="sparkles" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <p class="text-xs font-bold text-white">Kementerian PU</p>
+                <p class="text-[11px] text-slate-400">Visual Specialist (2023-2025)</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       3. ABOUT, EDUCATION, SOFTWARE & INTERESTS
+       ======================================================== -->
+  <section id="about" class="py-24 bg-dark-card/40 border-y border-dark-border/50 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-brand-500/10 border border-brand-500/30 text-brand-400 text-xs font-semibold uppercase tracking-wider mb-3">
+          <i data-lucide="user" class="w-3.5 h-3.5"></i>
+          <span>About Muhammad Ridha Irsyad</span>
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-display font-bold text-white tracking-tight">
+          Filosofi Desain, Edukasi & Pondasi Kreatif
+        </h2>
+        <p class="mt-3 text-sm sm:text-base text-slate-400">
+          Menggabungkan ketajaman komunikasi visual, pemikiran strategis, dan eksekusi teknis lintas medium.
+        </p>
+      </div>
+
+      <!-- Content Grid: 2 Columns -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+        
+        <!-- Column 1: Story & Education (7 cols) -->
+        <div class="lg:col-span-7 space-y-8">
+          
+          <!-- Bio card -->
+          <div class="bg-dark-card border border-dark-border rounded-2xl p-6 sm:p-8 relative overflow-hidden group hover:border-brand-500/30 transition-all">
+            <h3 class="text-xl font-display font-bold text-white mb-4 flex items-center gap-2.5">
+              <i data-lucide="pen-tool" class="w-5 h-5 text-brand-400"></i>
+              <span>Profil Singkat & Pendekatan Desain</span>
+            </h3>
+            <div class="text-slate-300 text-sm sm:text-base space-y-4 leading-relaxed font-normal">
+              <p>
+                Saya adalah <span class="text-white font-medium">Muhammad Ridha Irsyad</span> (biasa disapa <span class="text-brand-300 font-semibold">IRSYAD</span>), seorang Graphic Designer profesional dengan rekam jejak lebih dari 5 tahun berkarya di berbagai sektor industri, mulai dari kementerian pemerintahan, organisasi nirlaba internasional (UNDP), perbankan terkemuka, hingga agensi kreatif dan proyek startup.
+              </p>
+              <p>
+                Bagi saya, esensi desain visual bukan sekadar perpaduan warna yang memikat mata, melainkan jembatan komunikasi yang mampu menyampaikan gagasan kompleks secara sederhana, terstruktur, dan membekas di benak audiens sasaran.
+              </p>
+            </div>
+
+            <!-- Languages row -->
+            <div class="mt-6 pt-6 border-t border-dark-border flex flex-wrap items-center gap-4">
+              <span class="text-xs font-semibold text-slate-400 uppercase tracking-wider flex items-center gap-1.5">
+                <i data-lucide="globe" class="w-4 h-4 text-brand-400"></i> Kemampuan Bahasa:
+              </span>
+              <div class="flex items-center gap-3">
+                <span class="inline-flex items-center gap-1.5 text-xs font-medium px-3 py-1 rounded-full bg-slate-800 text-slate-200 border border-slate-700">
+                  <span class="w-2 h-2 rounded-full bg-emerald-400"></span> Indonesian (Native)
+                </span>
+                <span class="inline-flex items-center gap-1.5 text-xs font-medium px-3 py-1 rounded-full bg-slate-800 text-slate-200 border border-slate-700">
+                  <span class="w-2 h-2 rounded-full bg-cyan-400"></span> English (Intermediate)
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Education Card -->
+          <div class="bg-dark-card border border-dark-border rounded-2xl p-6 sm:p-8 group hover:border-brand-500/30 transition-all">
+            <h3 class="text-xl font-display font-bold text-white mb-6 flex items-center gap-2.5">
+              <i data-lucide="graduation-cap" class="w-5 h-5 text-brand-400"></i>
+              <span>Riwayat Pendidikan (Education)</span>
+            </h3>
+
+            <div class="relative pl-6 space-y-8 before:absolute before:left-2 before:top-2 before:bottom-2 before:w-[2px] before:bg-gradient-to-b before:from-brand-500 before:via-teal-600 before:to-slate-700">
+              
+              <!-- Edu 1 -->
+              <div class="relative group/edu">
+                <div class="absolute -left-[27px] top-1.5 w-3.5 h-3.5 rounded-full bg-[#080b11] border-2 border-brand-400 group-hover/edu:bg-brand-400 transition-colors"></div>
+                <div class="flex flex-wrap items-baseline justify-between gap-2">
+                  <h4 class="text-base sm:text-lg font-bold text-white group-hover/edu:text-brand-300 transition-colors">
+                    University of Indonesia (UI)
+                  </h4>
+                  <span class="text-xs font-mono font-medium px-2.5 py-0.5 rounded bg-brand-500/10 text-brand-300 border border-brand-500/20">
+                    2012 – 2015
+                  </span>
+                </div>
+                <p class="text-xs sm:text-sm text-slate-400 mt-1">
+                  Pendidikan tingkat lanjut dengan fokus pengembangan analitis, komunikasi strategis, dan pemahaman budaya visual terintegrasi.
+                </p>
+              </div>
+
+              <!-- Edu 2 -->
+              <div class="relative group/edu">
+                <div class="absolute -left-[27px] top-1.5 w-3.5 h-3.5 rounded-full bg-[#080b11] border-2 border-slate-500 group-hover/edu:bg-brand-400 transition-colors"></div>
+                <div class="flex flex-wrap items-baseline justify-between gap-2">
+                  <h4 class="text-base sm:text-lg font-bold text-white group-hover/edu:text-brand-300 transition-colors">
+                    Jakarta State Polytechnic (PNJ)
+                  </h4>
+                  <span class="text-xs font-mono font-medium px-2.5 py-0.5 rounded bg-slate-800 text-slate-300 border border-slate-700">
+                    2008 – 2011
+                  </span>
+                </div>
+                <p class="text-xs sm:text-sm text-slate-400 mt-1">
+                  Fondasi teknis grafis terapan, metodologi produksi visual, keahlian layout cetak, dan teknik grafika terstruktur.
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Column 2: Software Mastery & Interests (5 cols) -->
+        <div class="lg:col-span-5 space-y-8">
+          
+          <!-- Software Section -->
+          <div id="skills" class="bg-dark-card border border-dark-border rounded-2xl p-6 sm:p-8 hover:border-brand-500/30 transition-all">
+            <h3 class="text-xl font-display font-bold text-white mb-2 flex items-center gap-2.5">
+              <i data-lucide="layers" class="w-5 h-5 text-brand-400"></i>
+              <span>Software yang Dikuasai</span>
+            </h3>
+            <p class="text-xs text-slate-400 mb-6">Tools industri utama untuk eksekusi vektor, raster, editorial, dan motion visual.</p>
+
+            <div class="space-y-4">
+              
+              <!-- Illustrator -->
+              <div class="p-3.5 rounded-xl bg-dark-surface/60 border border-dark-border/80 flex items-center justify-between hover:border-brand-500/30 transition-all">
+                <div class="flex items-center gap-3">
+                  <div class="w-10 h-10 rounded-lg bg-[#330000] border border-[#ff9a00]/40 flex items-center justify-center font-bold text-[#ff9a00] font-mono text-sm">
+                    Ai
+                  </div>
+                  <div>
+                    <h5 class="text-sm font-bold text-white">Adobe Illustrator</h5>
+                    <p class="text-[11px] text-slate-400">Vector, Logo Design, Iconography</p>
+                  </div>
+                </div>
+                <span class="text-xs font-mono font-semibold text-brand-400">Expert / 95%</span>
+              </div>
+
+              <!-- Photoshop -->
+              <div class="p-3.5 rounded-xl bg-dark-surface/60 border border-dark-border/80 flex items-center justify-between hover:border-brand-500/30 transition-all">
+                <div class="flex items-center gap-3">
+                  <div class="w-10 h-10 rounded-lg bg-[#001e36] border border-[#31a8ff]/40 flex items-center justify-center font-bold text-[#31a8ff] font-mono text-sm">
+                    Ps
+                  </div>
+                  <div>
+                    <h5 class="text-sm font-bold text-white">Adobe Photoshop</h5>
+                    <p class="text-[11px] text-slate-400">Image Manipulation, Retouching, Social Media</p>
+                  </div>
+                </div>
+                <span class="text-xs font-mono font-semibold text-brand-400">Expert / 92%</span>
+              </div>
+
+              <!-- InDesign -->
+              <div class="p-3.5 rounded-xl bg-dark-surface/60 border border-dark-border/80 flex items-center justify-between hover:border-brand-500/30 transition-all">
+                <div class="flex items-center gap-3">
+                  <div class="w-10 h-10 rounded-lg bg-[#49021f] border border-[#ff3366]/40 flex items-center justify-center font-bold text-[#ff3366] font-mono text-sm">
+                    Id
+                  </div>
+                  <div>
+                    <h5 class="text-sm font-bold text-white">Adobe InDesign</h5>
+                    <p class="text-[11px] text-slate-400">Editorial, Book, Catalog & Magazine Layout</p>
+                  </div>
+                </div>
+                <span class="text-xs font-mono font-semibold text-brand-400">Advanced / 88%</span>
+              </div>
+
+              <!-- Figma -->
+              <div class="p-3.5 rounded-xl bg-dark-surface/60 border border-dark-border/80 flex items-center justify-between hover:border-brand-500/30 transition-all">
+                <div class="flex items-center gap-3">
+                  <div class="w-10 h-10 rounded-lg bg-[#1e102d] border border-[#a259ff]/40 flex items-center justify-center font-bold text-[#a259ff] font-mono text-sm">
+                    Fg
+                  </div>
+                  <div>
+                    <h5 class="text-sm font-bold text-white">Figma</h5>
+                    <p class="text-[11px] text-slate-400">UI/UX Design, Wireframing, Prototyping</p>
+                  </div>
+                </div>
+                <span class="text-xs font-mono font-semibold text-brand-400">Advanced / 90%</span>
+              </div>
+
+              <!-- Canva -->
+              <div class="p-3.5 rounded-xl bg-dark-surface/60 border border-dark-border/80 flex items-center justify-between hover:border-brand-500/30 transition-all">
+                <div class="flex items-center gap-3">
+                  <div class="w-10 h-10 rounded-lg bg-[#00263b] border border-[#00c4cc]/40 flex items-center justify-center font-bold text-[#00c4cc] font-mono text-sm">
+                    Cv
+                  </div>
+                  <div>
+                    <h5 class="text-sm font-bold text-white">Canva</h5>
+                    <p class="text-[11px] text-slate-400">Social Media Graphics, Presentations, Marketing Assets</p>
+                  </div>
+                </div>
+                <span class="text-xs font-mono font-semibold text-brand-400">Expert / 92%</span>
+              </div>
+
+              <!-- CapCut -->
+              <div class="p-3.5 rounded-xl bg-dark-surface/60 border border-dark-border/80 flex items-center justify-between hover:border-brand-500/30 transition-all">
+                <div class="flex items-center gap-3">
+                  <div class="w-10 h-10 rounded-lg bg-slate-900 border border-slate-600 flex items-center justify-center font-bold text-white font-mono text-sm">
+                    C
+                  </div>
+                  <div>
+                    <h5 class="text-sm font-bold text-white">CapCut & Video Tools</h5>
+                    <p class="text-[11px] text-slate-400">Reels, Short-form Content, Motion Edits</p>
+                  </div>
+                </div>
+                <span class="text-xs font-mono font-semibold text-brand-400">Proficient / 85%</span>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Interests / Minat Card -->
+          <div class="bg-dark-card border border-dark-border rounded-2xl p-6 sm:p-8 hover:border-brand-500/30 transition-all">
+            <h3 class="text-xl font-display font-bold text-white mb-2 flex items-center gap-2.5">
+              <i data-lucide="compass" class="w-5 h-5 text-brand-400"></i>
+              <span>Minat & Inspirasi (Interests)</span>
+            </h3>
+            <p class="text-xs text-slate-400 mb-4">Hal-hal yang terus mengisi energi kreatif dan perspektif artistik:</p>
+
+            <div class="grid grid-cols-2 sm:grid-cols-3 gap-2.5">
+              <div class="flex items-center gap-2 p-2.5 rounded-lg bg-dark-surface/60 border border-dark-border/60 text-xs text-slate-200">
+                <i data-lucide="palette" class="w-4 h-4 text-brand-400"></i>
+                <span>Design</span>
+              </div>
+              <div class="flex items-center gap-2 p-2.5 rounded-lg bg-dark-surface/60 border border-dark-border/60 text-xs text-slate-200">
+                <i data-lucide="type" class="w-4 h-4 text-cyan-400"></i>
+                <span>Typography</span>
+              </div>
+              <div class="flex items-center gap-2 p-2.5 rounded-lg bg-dark-surface/60 border border-dark-border/60 text-xs text-slate-200">
+                <i data-lucide="camera" class="w-4 h-4 text-emerald-400"></i>
+                <span>Photography</span>
+              </div>
+              <div class="flex items-center gap-2 p-2.5 rounded-lg bg-dark-surface/60 border border-dark-border/60 text-xs text-slate-200">
+                <i data-lucide="film" class="w-4 h-4 text-amber-400"></i>
+                <span>Cinema</span>
+              </div>
+              <div class="flex items-center gap-2 p-2.5 rounded-lg bg-dark-surface/60 border border-dark-border/60 text-xs text-slate-200">
+                <i data-lucide="activity" class="w-4 h-4 text-rose-400"></i>
+                <span>Sport</span>
+              </div>
+              <div class="flex items-center gap-2 p-2.5 rounded-lg bg-dark-surface/60 border border-dark-border/60 text-xs text-slate-200">
+                <i data-lucide="music" class="w-4 h-4 text-purple-400"></i>
+                <span>Music</span>
+              </div>
+              <div class="flex items-center gap-2 p-2.5 rounded-lg bg-dark-surface/60 border border-dark-border/60 text-xs text-slate-200 col-span-2 sm:col-span-3">
+                <i data-lucide="utensils" class="w-4 h-4 text-orange-400"></i>
+                <span>Culinary & Food Culture Exploration</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================
+       4. EXPERIENCE SECTION (TIMELINE)
+       ======================================================== -->
+  <section id="experience" class="py-24 relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-brand-500/10 border border-brand-500/30 text-brand-400 text-xs font-semibold uppercase tracking-wider mb-3">
+          <i data-lucide="briefcase" class="w-3.5 h-3.5"></i>
+          <span>Track Record & Karier</span>
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-display font-bold text-white tracking-tight">
+          Pengalaman Kerja Profesional
+        </h2>
+        <p class="mt-3 text-sm sm:text-base text-slate-400">
+          Lebih dari 5 tahun berkontribusi pada institusi kementerian, agensi kreatif, korporasi, dan brand terkemuka.
+        </p>
+      </div>
+
+      <!-- Timeline Container -->
+      <div class="relative max-w-4xl mx-auto">
+        <!-- Central vertical track -->
+        <div class="hidden sm:block absolute left-1/2 top-4 bottom-4 -translate-x-1/2 w-0.5 bg-gradient-to-b from-brand-500 via-teal-700 to-slate-800"></div>
+
+        <div class="space-y-10">
+          
+          <!-- Experience 1: 2023-2025 -->
+          <div class="relative sm:flex sm:items-center sm:justify-between group">
+            <!-- Content Left -->
+            <div class="sm:w-[45%] bg-dark-card border border-dark-border hover:border-brand-500/40 p-6 rounded-2xl shadow-lg transition-all group-hover:-translate-y-1">
+              <div class="flex items-center justify-between mb-2">
+                <span class="text-xs font-mono font-bold text-brand-400 px-2.5 py-1 rounded bg-brand-500/10 border border-brand-500/20">2023 – 2025</span>
+                <span class="text-[11px] text-slate-400">Pemerintahan</span>
+              </div>
+              <h3 class="text-lg font-bold text-white group-hover:text-brand-300 transition-colors">Graphic Designer</h3>
+              <h4 class="text-sm font-semibold text-teal-400 mb-3">Kementerian PU (Pekerjaan Umum) / BPSDM</h4>
+              <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
+                Bertanggung jawab atas desain material branding, komunikasi visual, aset event pelatihan SDM, serta pengelolaan visual feed, carousel, dan reels Instagram resmi BPSDM Kementerian PU.
+              </p>
+              <div class="mt-4 flex flex-wrap gap-1.5">
+                <span class="text-[11px] px-2 py-0.5 rounded bg-dark-surface text-slate-300 border border-dark-border">Event Branding</span>
+                <span class="text-[11px] px-2 py-0.5 rounded bg-dark-surface text-slate-300 border border-dark-border">Social Media Content</span>
+                <span class="text-[11px] px-2 py-0.5 rounded bg-dark-surface text-slate-300 border border-dark-border">Editorial Layout</span>
+              </div>
+            </div>
+
+            <!-- Central Node -->
+            <div class="hidden sm:flex absolute left-1/2 -translate-x-1/2 w-8 h-8 rounded-full bg-[#080b11] border-2 border-brand-400 items-center justify-center text-brand-400 shadow-md group-hover:scale-125 group-hover:bg-brand-500 group-hover:text-slate-950 transition-all z-10">
+              <i data-lucide="check" class="w-4 h-4"></i>
+            </div>
+
+            <!-- Spacer Right -->
+            <div class="hidden sm:block sm:w-[45%] text-left pl-6">
+              <p class="text-xs font-mono text-slate-500 uppercase tracking-widest">Institusi Nasional</p>
+              <p class="text-sm text-slate-400">Pengelolaan identitas visual komunikasi publik & program pengembangan SDM infrastruktur.</p>
+            </div>
+          </div>
+
+          <!-- Experience 2: 2022-2023 -->
+          <div class="relative sm:flex sm:items-center sm:justify-between group">
+            <!-- Spacer Left -->
+            <div class="hidden sm:block sm:w-[45%] text-right pr-6">
+              <p class="text-xs font-mono text-slate-500 uppercase tracking-widest">Creative Agency</p>
+              <p class="text-sm text-slate-400">Pengembangan konsep kampanye visual, digital campaign, dan brand collateral.</p>
+            </div>
+
+            <!-- Central Node -->
+            <div class="hidden sm:flex absolute left-1/2 -translate-x-1/2 w-8 h-8 rounded-full bg-[#080b11] border-2 border-teal-500 items-center justify-center text-teal-400 shadow-md group-hover:scale-125 group-hover:bg-teal-500 group-hover:text-slate-950 transition-all z-10">
+              <i data-lucide="palette" class="w-4 h-4"></i>
+            </div>
+
+            <!-- Content Right -->
+            <div class="sm:w-[45%] bg-dark-card border border-dark-border hover:border-brand-500/40 p-6 rounded-2xl shadow-lg transition-all group-hover:-translate-y-1">
+              <div class="flex items-center justify-between mb-2">
+                <span class="text-xs font-mono font-bold text-teal-400 px-2.5 py-1 rounded bg-teal-500/10 border border-teal-500/20">2022 – 2023</span>
+                <span class="text-[11px] text-slate-400">Agency</span>
+              </div>
+              <h3 class="text-lg font-bold text-white group-hover:text-brand-300 transition-colors">Creative Designer</h3>
+              <h4 class="text-sm font-semibold text-teal-400 mb-3">Petik Eshan Abadi</h4>
+              <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
+                Menghasilkan rancangan visual untuk brand identity korporat, materi aktivasi kampanye digital, aset UI interaktif booth (seperti Royal Canin IIPE), dan aset digital modern.
+              </p>
+              <div class="mt-4 flex flex-wrap gap-1.5">
+                <span class="text-[11px] px-2 py-0.5 rounded bg-dark-surface text-slate-300 border border-dark-border">Brand Identity</span>
+                <span class="text-[11px] px-2 py-0.5 rounded bg-dark-surface text-slate-300 border border-dark-border">Creative Campaign</span>
+                <span class="text-[11px] px-2 py-0.5 rounded bg-dark-surface text-slate-300 border border-dark-border">UI Exhibition</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 3: 2021 -->
+          <div class="relative sm:flex sm:items-center sm:justify-between group">
+            <!-- Content Left -->
+            <div class="sm:w-[45%] bg-dark-card border border-dark-border hover:border-brand-500/40 p-6 rounded-2xl shadow-lg transition-all group-hover:-translate-y-1">
+              <div class="flex items-center justify-between mb-2">
+                <span class="text-xs font-mono font-bold text-brand-400 px-2.5 py-1 rounded bg-brand-500/10 border border-brand-500/20">2021</span>
+                <span class="text-[11px] text-slate-400">Contract</span>
+              </div>
+              <h3 class="text-lg font-bold text-white group-hover:text-brand-300 transition-colors">Freelance Designer</h3>
+              <h4 class="text-sm font-semibold text-teal-400 mb-3">Dasa Aplindo Sentosa</h4>
+              <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
+                Mengerjakan eksekusi desain marketing collateral, company profile, serta aset grafis promosi untuk mendukung penetrasi produk klien.
+              </p>
+              <div class="mt-4 flex flex-wrap gap-1.5">
+                <span class="text-[11px] px-2 py-0.5 rounded bg-dark-surface text-slate-300 border border-dark-border">Marketing Collateral</span>
+                <span class="text-[11px] px-2 py-0.5 rounded bg-dark-surface text-slate-300 border border-dark-border">Digital Assets</span>
+              </div>
+            </div>
+
+            <!-- Central Node -->
+            <div class="hidden sm:flex absolute left-1/2 -translate-x-1/2 w-8 h-8 rounded-full bg-[#080b11] border-2 border-teal-600 items-center justify-center text-teal-400 shadow-md group-hover:scale-125 transition-all z-10">
+              <i data-lucide="layers" class="w-4 h-4"></i>
+            </div>
+
+            <!-- Spacer Right -->
+            <div class="hidden sm:block sm:w-[45%] text-left pl-6">
+              <p class="text-xs font-mono text-slate-500 uppercase tracking-widest">Corporate Solutions</p>
+              <p class="text-sm text-slate-400">Produksi materi promosi cepat dan responsif sesuai standar visual korporat.</p>
+            </div>
+          </div>
+
+          <!-- Experience 4: 2020 -->
+          <div class="relative sm:flex sm:items-center sm:justify-between group">
+            <!-- Spacer Left -->
+            <div class="hidden sm:block sm:w-[45%] text-right pr-6">
+              <p class="text-xs font-mono text-slate-500 uppercase tracking-widest">Foundation & Culture</p>
+              <p class="text-sm text-slate-400">Kolaborasi pemberdayaan budaya nusantara dan program sosial edukasi.</p>
+            </div>
+
+            <!-- Central Node -->
+            <div class="hidden sm:flex absolute left-1/2 -translate-x-1/2 w-8 h-8 rounded-full bg-[#080b11] border-2 border-teal-700 items-center justify-center text-teal-400 shadow-md group-hover:scale-125 transition-all z-10">
+              <i data-lucide="heart" class="w-4 h-4"></i>
+            </div>
+
+            <!-- Content Right -->
+            <div class="sm:w-[45%] bg-dark-card border border-dark-border hover:border-brand-500/40 p-6 rounded-2xl shadow-lg transition-all group-hover:-translate-y-1">
+              <div class="flex items-center justify-between mb-2">
+                <span class="text-xs font-mono font-bold text-teal-400 px-2.5 py-1 rounded bg-teal-500/10 border border-teal-500/20">2020</span>
+                <span class="text-[11px] text-slate-400">Freelance</span>
+              </div>
+              <h3 class="text-lg font-bold text-white group-hover:text-brand-300 transition-colors">Freelance Designer</h3>
+              <h4 class="text-sm font-semibold text-teal-400 mb-3">Yayasan Del</h4>
+              <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
+                Perancangan materi publikasi sosial dan budaya (termasuk inisiatif Toba Tenun), menonjolkan warisan budaya tenun Batak Sumatera Utara ke platform digital.
+              </p>
+              <div class="mt-4 flex flex-wrap gap-1.5">
+                <span class="text-[11px] px-2 py-0.5 rounded bg-dark-surface text-slate-300 border border-dark-border">Cultural Heritage</span>
+                <span class="text-[11px] px-2 py-0.5 rounded bg-dark-surface text-slate-300 border border-dark-border">Social Media</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 5: 2019-2020 -->
+          <div class="relative sm:flex sm:items-center sm:justify-between group">
+            <!-- Content Left -->
+            <div class="sm:w-[45%] bg-dark-card border border-dark-border hover:border-brand-500/40 p-6 rounded-2xl shadow-lg transition-all group-hover:-translate-y-1">
+              <div class="flex items-center justify-between mb-2">
+                <span class="text-xs font-mono font-bold text-brand-400 px-2.5 py-1 rounded bg-brand-500/10 border border-brand-500/20">2019 – 2020</span>
+                <span class="text-[11px] text-slate-400">Creative Agency</span>
+              </div>
+              <h3 class="text-lg font-bold text-white group-hover:text-brand-300 transition-colors">Creative Designer</h3>
+              <h4 class="text-sm font-semibold text-teal-400 mb-3">Zigzag Indonesia</h4>
+              <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
+                Mengerjakan event branding prestisius skala nasional, seperti perayaan 90 tahun Optik Tunggal di Ritz Carlton Pacific Place, kampanye Gerakan Indonesia Bersih, dan peluncuran buku memoar Utomo Josodirdjo.
+              </p>
+              <div class="mt-4 flex flex-wrap gap-1.5">
+                <span class="text-[11px] px-2 py-0.5 rounded bg-dark-surface text-slate-300 border border-dark-border">Grand Event Branding</span>
+                <span class="text-[11px] px-2 py-0.5 rounded bg-dark-surface text-slate-300 border border-dark-border">Campaign Strategy</span>
+              </div>
+            </div>
+
+            <!-- Central Node -->
+            <div class="hidden sm:flex absolute left-1/2 -translate-x-1/2 w-8 h-8 rounded-full bg-[#080b11] border-2 border-teal-800 items-center justify-center text-teal-400 shadow-md group-hover:scale-125 transition-all z-10">
+              <i data-lucide="award" class="w-4 h-4"></i>
+            </div>
+
+            <!-- Spacer Right -->
+            <div class="hidden sm:block sm:w-[45%] text-left pl-6">
+              <p class="text-xs font-mono text-slate-500 uppercase tracking-widest">High-Profile Events</p>
+              <p class="text-sm text-slate-400">Pengalaman menangani produksi pameran, gala dinner perayaan, dan materi VIP.</p>
+            </div>
+          </div>
+
+          <!-- Experience 6: 2015-2019 -->
+          <div class="relative sm:flex sm:items-center sm:justify-between group">
+            <!-- Spacer Left -->
+            <div class="hidden sm:block sm:w-[45%] text-right pr-6">
+              <p class="text-xs font-mono text-slate-500 uppercase tracking-widest">Awal Karier & Fondasi</p>
+              <p class="text-sm text-slate-400">Masa pengabdian panjang dalam komunikasi visual kementerian infrastruktur.</p>
+            </div>
+
+            <!-- Central Node -->
+            <div class="hidden sm:flex absolute left-1/2 -translate-x-1/2 w-8 h-8 rounded-full bg-[#080b11] border-2 border-slate-600 items-center justify-center text-slate-400 shadow-md group-hover:scale-125 transition-all z-10">
+              <i data-lucide="anchor" class="w-4 h-4"></i>
+            </div>
+
+            <!-- Content Right -->
+            <div class="sm:w-[45%] bg-dark-card border border-dark-border hover:border-brand-500/40 p-6 rounded-2xl shadow-lg transition-all group-hover:-translate-y-1">
+              <div class="flex items-center justify-between mb-2">
+                <span class="text-xs font-mono font-bold text-slate-300 px-2.5 py-1 rounded bg-slate-800 border border-slate-700">2015 – 2019</span>
+                <span class="text-[11px] text-slate-400">Kementerian</span>
+              </div>
+              <h3 class="text-lg font-bold text-white group-hover:text-brand-300 transition-colors">Graphic Designer</h3>
+              <h4 class="text-sm font-semibold text-teal-400 mb-3">Kementerian PUPR</h4>
+              <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
+                Merancang materi infografis pembangunan infrastruktur nasional, laporan tahunan, modul edukasi, publikasi media cetak serta digital untuk masyarakat luas.
+              </p>
+              <div class="mt-4 flex flex-wrap gap-1.5">
+                <span class="text-[11px] px-2 py-0.5 rounded bg-dark-surface text-slate-300 border border-dark-border">Infografis Publik</span>
+                <span class="text-[11px] px-2 py-0.5 rounded bg-dark-surface text-slate-300 border border-dark-border">Annual Report</span>
+                <span class="text-[11px] px-2 py-0.5 rounded bg-dark-surface text-slate-300 border border-dark-border">PUPR Media</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================
+       5. PORTFOLIO / SHOWCASE (INTERACTIVE CATEGORIES & MODAL)
+       ======================================================== -->
+  <section id="portfolio" class="py-24 bg-dark-card/30 border-t border-dark-border/60 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-brand-500/10 border border-brand-500/30 text-brand-400 text-xs font-semibold uppercase tracking-wider mb-3">
+          <i data-lucide="grid" class="w-3.5 h-3.5"></i>
+          <span>Curated Works</span>
+        </div>
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-display font-extrabold text-white tracking-tight">
+          Portofolio Karya Pilihan
+        </h2>
+        <p class="mt-3 text-sm sm:text-base text-slate-400">
+          Eksplorasi proyek berdasarkan kategori: Logo Design, Brand Identity, Event Branding, Social Media, UI Design, NFT, hingga Saluran YouTube.
+        </p>
+      </div>
+
+      <!-- Category Filter Tabs -->
+      <div class="flex items-center justify-start lg:justify-center gap-2 overflow-x-auto pb-4 mb-10 no-scrollbar">
+        <button class="filter-btn active px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all whitespace-nowrap" data-filter="all">
+          Semua Proyek <span class="ml-1 text-[11px] opacity-70">(26+)</span>
+        </button>
+        <button class="filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all whitespace-nowrap" data-filter="logo">
+          Logo Design <span class="ml-1 text-[11px] opacity-70">(12)</span>
+        </button>
+        <button class="filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all whitespace-nowrap" data-filter="branding">
+          Brand Identity <span class="ml-1 text-[11px] opacity-70">(5)</span>
+        </button>
+        <button class="filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all whitespace-nowrap" data-filter="product-event">
+          Product & Event <span class="ml-1 text-[11px] opacity-70">(1)</span>
+        </button>
+        <button class="filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all whitespace-nowrap" data-filter="social-media">
+          Social Media <span class="ml-1 text-[11px] opacity-70">(4)</span>
+        </button>
+        <button class="filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all whitespace-nowrap" data-filter="ui-design">
+          UI Design <span class="ml-1 text-[11px] opacity-70">(2)</span>
+        </button>
+        <button class="filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all whitespace-nowrap" data-filter="nft">
+          NFT Design <span class="ml-1 text-[11px] opacity-70">(1)</span>
+        </button>
+        <button class="filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all whitespace-nowrap" data-filter="youtube">
+          YouTube Channel <span class="ml-1 text-[11px] opacity-70">(1)</span>
+        </button>
+      </div>
+
+      <!-- Portfolio Grid -->
+      <div id="portfolio-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+        
+        <!-- ================= BRAND IDENTITY ================= -->
+        <!-- 1. RESTORE (UNDP Indonesia) -->
+        <div class="portfolio-item group" data-category="branding"
+             data-title="RESTORE (UNDP Indonesia)"
+             data-category-label="Brand Identity & Campaign"
+             data-year="2022"
+             data-client="UNDP Indonesia"
+             data-role="Lead Visual Designer"
+             data-desc="Proyek kampanye strategis dalam merespons krisis COVID-19 dan pemulihan ketahanan ekonomi masyarakat. Merancang identitas visual yang penuh harapan, tegas, dan inklusif untuk berbagai materi edukasi, infografis, serta publikasi mitra pembangunan internasional."
+             data-tags="Brand Identity, NGO, COVID-19 Response, Campaign Strategy, UNDP"
+             data-accent="emerald">
+          <div class="bg-dark-card border border-dark-border rounded-2xl overflow-hidden hover:border-brand-500/50 transition-all duration-300 flex flex-col h-full shadow-lg group-hover:-translate-y-1.5 cursor-pointer project-trigger">
+            <!-- Mockup Visual Header -->
+            <div class="h-52 bg-gradient-to-br from-emerald-950 via-[#0a201c] to-[#080b11] p-6 flex flex-col justify-between relative overflow-hidden">
+              <div class="absolute inset-0 bg-brand-500/10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              <div class="flex items-center justify-between z-10">
+                <span class="text-[11px] font-mono px-2.5 py-1 rounded bg-black/40 border border-emerald-500/30 text-emerald-300 font-medium">UNDP Indonesia • 2022</span>
+                <div class="w-8 h-8 rounded-full bg-black/40 border border-white/10 flex items-center justify-center text-white group-hover:bg-brand-500 group-hover:text-black transition-colors">
+                  <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+                </div>
+              </div>
+              <div class="z-10">
+                <span class="text-xs uppercase font-mono tracking-widest text-emerald-400">Campaign Identity</span>
+                <h3 class="text-2xl font-display font-extrabold text-white mt-1">RESTORE</h3>
+                <p class="text-xs text-slate-300">Ekonomi Pulih, Bangkit Bersama</p>
+              </div>
+            </div>
+            <!-- Card Body -->
+            <div class="p-6 flex-1 flex flex-col justify-between bg-dark-card">
+              <p class="text-xs sm:text-sm text-slate-300 leading-relaxed line-clamp-3">
+                Proyek kampanye respons krisis COVID-19 & pemulihan ekonomi dengan bahasa visual humanis, ramah, dan kredibel.
+              </p>
+              <div class="mt-5 pt-4 border-t border-dark-border/60 flex items-center justify-between text-xs text-slate-400">
+                <span class="text-brand-400 font-medium">Brand Identity</span>
+                <span class="group-hover:translate-x-1 transition-transform inline-flex items-center gap-1 text-slate-300">Detail Proyek <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. #TAYTB Fest (OCBC NISP) -->
+        <div class="portfolio-item group" data-category="branding"
+             data-title="#TAYTB Fest (OCBC NISP)"
+             data-category-label="Brand Identity & Event Festival"
+             data-year="2022"
+             data-client="Bank OCBC NISP"
+             data-role="Creative Designer"
+             data-desc="Festival literasi keuangan terbesar untuk generasi Milenial & Gen Z bertajuk 'Tidak Ada Yang Tidak Bisa'. Merancang sistem identitas visual yang berjiwa muda, dinamis, energik, dan aplikatif ke ratusan materi panggung, digital promo, signage, dan merchandise."
+             data-tags="Event Branding, Financial Literacy, Youth Culture, OCBC NISP, Gen Z"
+             data-accent="teal">
+          <div class="bg-dark-card border border-dark-border rounded-2xl overflow-hidden hover:border-brand-500/50 transition-all duration-300 flex flex-col h-full shadow-lg group-hover:-translate-y-1.5 cursor-pointer project-trigger">
+            <div class="h-52 bg-gradient-to-br from-red-950 via-[#1e1315] to-[#080b11] p-6 flex flex-col justify-between relative overflow-hidden">
+              <div class="flex items-center justify-between z-10">
+                <span class="text-[11px] font-mono px-2.5 py-1 rounded bg-black/40 border border-red-500/30 text-red-300 font-medium">OCBC NISP • 2022</span>
+                <div class="w-8 h-8 rounded-full bg-black/40 border border-white/10 flex items-center justify-center text-white group-hover:bg-brand-500 group-hover:text-black transition-colors">
+                  <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+                </div>
+              </div>
+              <div class="z-10">
+                <span class="text-xs uppercase font-mono tracking-widest text-red-400">Financial Festival</span>
+                <h3 class="text-2xl font-display font-extrabold text-white mt-1">#TAYTB Fest</h3>
+                <p class="text-xs text-slate-300">Tidak Ada Yang Tidak Bisa</p>
+              </div>
+            </div>
+            <div class="p-6 flex-1 flex flex-col justify-between bg-dark-card">
+              <p class="text-xs sm:text-sm text-slate-300 leading-relaxed line-clamp-3">
+                Festival literasi keuangan untuk milenial & Gen Z dengan eksplorasi visual kontemporer, berani, dan berdaya pikat tinggi.
+              </p>
+              <div class="mt-5 pt-4 border-t border-dark-border/60 flex items-center justify-between text-xs text-slate-400">
+                <span class="text-brand-400 font-medium">Brand Identity</span>
+                <span class="group-hover:translate-x-1 transition-transform inline-flex items-center gap-1 text-slate-300">Detail Proyek <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. 90th Anniversary Optik Tunggal -->
+        <div class="portfolio-item group" data-category="branding"
+             data-title="90th Anniversary Optik Tunggal"
+             data-category-label="Brand Identity & Luxury Event"
+             data-year="2019"
+             data-client="Optik Tunggal / Zigzag Indonesia"
+             data-role="Senior Graphic Designer"
+             data-desc="Branding perayaan akbar 90 tahun berdirinya Optik Tunggal yang diselenggarakan di Grand Ballroom The Ritz-Carlton Pacific Place Jakarta. Merancang logo perayaan ke-90 bernuansa emas elegan, undangan mewah, backdrop panggung megah, buku kenangan khusus, dan visual display ballroom."
+             data-tags="Luxury Event, Anniversary Branding, Grand Ballroom Ritz Carlton, Print Collateral"
+             data-accent="amber">
+          <div class="bg-dark-card border border-dark-border rounded-2xl overflow-hidden hover:border-brand-500/50 transition-all duration-300 flex flex-col h-full shadow-lg group-hover:-translate-y-1.5 cursor-pointer project-trigger">
+            <div class="h-52 bg-gradient-to-br from-amber-950/80 via-[#1c170d] to-[#080b11] p-6 flex flex-col justify-between relative overflow-hidden">
+              <div class="flex items-center justify-between z-10">
+                <span class="text-[11px] font-mono px-2.5 py-1 rounded bg-black/40 border border-amber-500/30 text-amber-300 font-medium">Ritz-Carlton PP • 2019</span>
+                <div class="w-8 h-8 rounded-full bg-black/40 border border-white/10 flex items-center justify-center text-white group-hover:bg-brand-500 group-hover:text-black transition-colors">
+                  <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+                </div>
+              </div>
+              <div class="z-10">
+                <span class="text-xs uppercase font-mono tracking-widest text-amber-400">Milestone Gala</span>
+                <h3 class="text-2xl font-display font-extrabold text-white mt-1">90th Optik Tunggal</h3>
+                <p class="text-xs text-slate-300">9 Decades of Visionary Excellence</p>
+              </div>
+            </div>
+            <div class="p-6 flex-1 flex flex-col justify-between bg-dark-card">
+              <p class="text-xs sm:text-sm text-slate-300 leading-relaxed line-clamp-3">
+                Branding acara dan material promosi perayaan 90 tahun Optik Tunggal di Grand Ballroom Ritz-Carlton Pacific Place.
+              </p>
+              <div class="mt-5 pt-4 border-t border-dark-border/60 flex items-center justify-between text-xs text-slate-400">
+                <span class="text-brand-400 font-medium">Brand Identity</span>
+                <span class="group-hover:translate-x-1 transition-transform inline-flex items-center gap-1 text-slate-300">Detail Proyek <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Gerakan Indonesia Bersih -->
+        <div class="portfolio-item group" data-category="branding"
+             data-title="Gerakan Indonesia Bersih"
+             data-category-label="Brand Identity & Social Campaign"
+             data-year="2019"
+             data-client="Kementerian Koordinator Bidang Kemaritiman & Investasi"
+             data-role="Graphic Designer"
+             data-desc="Kampanye lingkungan hidup nasional bertajuk 'I am a Game Changer. Are You?'. Mengembangkan identitas visual yang mendorong aksi nyata pengelolaan sampah, kepedulian laut, dan pelestarian lingkungan hidup bagi masyarakat urban dan pemuda."
+             data-tags="Environmental Campaign, Social Movement, Indonesia Bersih, Public Awareness"
+             data-accent="teal">
+          <div class="bg-dark-card border border-dark-border rounded-2xl overflow-hidden hover:border-brand-500/50 transition-all duration-300 flex flex-col h-full shadow-lg group-hover:-translate-y-1.5 cursor-pointer project-trigger">
+            <div class="h-52 bg-gradient-to-br from-cyan-950 via-[#0b1c20] to-[#080b11] p-6 flex flex-col justify-between relative overflow-hidden">
+              <div class="flex items-center justify-between z-10">
+                <span class="text-[11px] font-mono px-2.5 py-1 rounded bg-black/40 border border-cyan-500/30 text-cyan-300 font-medium">National Campaign • 2019</span>
+                <div class="w-8 h-8 rounded-full bg-black/40 border border-white/10 flex items-center justify-center text-white group-hover:bg-brand-500 group-hover:text-black transition-colors">
+                  <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+                </div>
+              </div>
+              <div class="z-10">
+                <span class="text-xs uppercase font-mono tracking-widest text-cyan-400">Eco Movement</span>
+                <h3 class="text-2xl font-display font-extrabold text-white mt-1">Indonesia Bersih</h3>
+                <p class="text-xs text-slate-300">"I am a Game Changer. Are You?"</p>
+              </div>
+            </div>
+            <div class="p-6 flex-1 flex flex-col justify-between bg-dark-card">
+              <p class="text-xs sm:text-sm text-slate-300 leading-relaxed line-clamp-3">
+                Kampanye lingkungan hidup berani dengan tagline ikonik dan identitas visual ramah lingkungan.
+              </p>
+              <div class="mt-5 pt-4 border-t border-dark-border/60 flex items-center justify-between text-xs text-slate-400">
+                <span class="text-brand-400 font-medium">Brand Identity</span>
+                <span class="group-hover:translate-x-1 transition-transform inline-flex items-center gap-1 text-slate-300">Detail Proyek <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. 90th Birthday Utomo Josodirdjo -->
+        <div class="portfolio-item group" data-category="branding"
+             data-title="90th Birthday Utomo Josodirdjo"
+             data-category-label="Brand Identity & Memoir Book Launch"
+             data-year="2019"
+             data-client="Utomo Josodirdjo & Partners"
+             data-role="Graphic Designer"
+             data-desc="Perayaan ulang tahun ke-90 tokoh legendaris akuntansi modern Indonesia dan pendiri SGV Utomo & Co (cikal bakal Arthur Andersen / EY Indonesia), dirangkaikan dengan peluncuran buku memoar biografi resminya. Merancang estetika visual buku memoar, branding panggung, dan souvenir VIP."
+             data-tags="Book Design, Memoir, Biography, Utomo Josodirdjo, Corporate Legacy"
+             data-accent="purple">
+          <div class="bg-dark-card border border-dark-border rounded-2xl overflow-hidden hover:border-brand-500/50 transition-all duration-300 flex flex-col h-full shadow-lg group-hover:-translate-y-1.5 cursor-pointer project-trigger">
+            <div class="h-52 bg-gradient-to-br from-indigo-950 via-[#171328] to-[#080b11] p-6 flex flex-col justify-between relative overflow-hidden">
+              <div class="flex items-center justify-between z-10">
+                <span class="text-[11px] font-mono px-2.5 py-1 rounded bg-black/40 border border-purple-500/30 text-purple-300 font-medium">Memoir & Gala • 2019</span>
+                <div class="w-8 h-8 rounded-full bg-black/40 border border-white/10 flex items-center justify-center text-white group-hover:bg-brand-500 group-hover:text-black transition-colors">
+                  <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+                </div>
+              </div>
+              <div class="z-10">
+                <span class="text-xs uppercase font-mono tracking-widest text-purple-400">Legacy Memoir</span>
+                <h3 class="text-2xl font-display font-extrabold text-white mt-1">Utomo Josodirdjo</h3>
+                <p class="text-xs text-slate-300">90 Years of Inspiration & Leadership</p>
+              </div>
+            </div>
+            <div class="p-6 flex-1 flex flex-col justify-between bg-dark-card">
+              <p class="text-xs sm:text-sm text-slate-300 leading-relaxed line-clamp-3">
+                Perayaan ulang tahun pendiri SGV Utomo & Co dan peluncuran buku memoar bersejarah.
+              </p>
+              <div class="mt-5 pt-4 border-t border-dark-border/60 flex items-center justify-between text-xs text-slate-400">
+                <span class="text-brand-400 font-medium">Brand Identity</span>
+                <span class="group-hover:translate-x-1 transition-transform inline-flex items-center gap-1 text-slate-300">Detail Proyek <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ================= PRODUCT DESIGN & EVENT BRANDING ================= -->
+        <!-- 6. BPSDM Kementerian PU -->
+        <div class="portfolio-item group" data-category="product-event"
+             data-title="BPSDM Kementerian PU Event & Material"
+             data-category-label="Product Design & Event Branding"
+             data-year="2023 - 2025"
+             data-client="BPSDM Kementerian PU"
+             data-role="Lead Visual Specialist"
+             data-desc="Rancangan komprehensif untuk ekosistem pelatihan aparatur infrastruktur nasional di Kementerian PU. Meliputi perancangan desain backdrop panggung seminar, modul cetak, sertifikat digital terverifikasi, signage balai diklat, lanyard, hingga merchandise eksklusif."
+             data-tags="Event Branding, Government, Training Modules, Merchandise, Kementerian PU"
+             data-accent="teal">
+          <div class="bg-dark-card border border-dark-border rounded-2xl overflow-hidden hover:border-brand-500/50 transition-all duration-300 flex flex-col h-full shadow-lg group-hover:-translate-y-1.5 cursor-pointer project-trigger">
+            <div class="h-52 bg-gradient-to-br from-teal-950 via-[#0d2122] to-[#080b11] p-6 flex flex-col justify-between relative overflow-hidden">
+              <div class="flex items-center justify-between z-10">
+                <span class="text-[11px] font-mono px-2.5 py-1 rounded bg-black/40 border border-brand-500/30 text-brand-300 font-medium">Kementerian PU • 2023-2025</span>
+                <div class="w-8 h-8 rounded-full bg-black/40 border border-white/10 flex items-center justify-center text-white group-hover:bg-brand-500 group-hover:text-black transition-colors">
+                  <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+                </div>
+              </div>
+              <div class="z-10">
+                <span class="text-xs uppercase font-mono tracking-widest text-brand-400">Government Event</span>
+                <h3 class="text-2xl font-display font-extrabold text-white mt-1">BPSDM Event Suite</h3>
+                <p class="text-xs text-slate-300">Desain Komunikasi & Pelatihan SDM</p>
+              </div>
+            </div>
+            <div class="p-6 flex-1 flex flex-col justify-between bg-dark-card">
+              <p class="text-xs sm:text-sm text-slate-300 leading-relaxed line-clamp-3">
+                Desain material branding, komunikasi, seminar kit, dan event pelatihan SDM Kementerian PU.
+              </p>
+              <div class="mt-5 pt-4 border-t border-dark-border/60 flex items-center justify-between text-xs text-slate-400">
+                <span class="text-brand-400 font-medium">Product & Event</span>
+                <span class="group-hover:translate-x-1 transition-transform inline-flex items-center gap-1 text-slate-300">Detail Proyek <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ================= SOCIAL MEDIA MANAGEMENT ================= -->
+        <!-- 7. Instagram BPSDM Kementerian PU -->
+        <div class="portfolio-item group" data-category="social-media"
+             data-title="Instagram BPSDM Kementerian PU"
+             data-category-label="Social Media Visual Management"
+             data-year="2023 - 2025"
+             data-client="BPSDM Kementerian Pekerjaan Umum"
+             data-role="Visual Content Creator"
+             data-desc="Pengelolaan arah visual dan produksi konten harian Instagram BPSDM Kementerian PU. Mencakup perancangan single feed infografis informatif, swipe carousel edukatif bertahap, poster kegiatan, serta template cover dan motion asset untuk Reels Instagram berengagement tinggi."
+             data-tags="Instagram Management, Infographics, Carousel, Reels Visuals, Public Sector"
+             data-accent="teal">
+          <div class="bg-dark-card border border-dark-border rounded-2xl overflow-hidden hover:border-brand-500/50 transition-all duration-300 flex flex-col h-full shadow-lg group-hover:-translate-y-1.5 cursor-pointer project-trigger">
+            <div class="h-52 bg-gradient-to-br from-slate-900 via-[#101b2b] to-[#080b11] p-6 flex flex-col justify-between relative overflow-hidden">
+              <div class="flex items-center justify-between z-10">
+                <span class="text-[11px] font-mono px-2.5 py-1 rounded bg-black/40 border border-sky-500/30 text-sky-300 font-medium">Instagram Content • 2023-2025</span>
+                <div class="w-8 h-8 rounded-full bg-black/40 border border-white/10 flex items-center justify-center text-white group-hover:bg-brand-500 group-hover:text-black transition-colors">
+                  <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+                </div>
+              </div>
+              <div class="z-10">
+                <span class="text-xs uppercase font-mono tracking-widest text-sky-400">Social Media</span>
+                <h3 class="text-2xl font-display font-extrabold text-white mt-1">@bpsdm_pu</h3>
+                <p class="text-xs text-slate-300">Single Post, Educational Carousel, Reels</p>
+              </div>
+            </div>
+            <div class="p-6 flex-1 flex flex-col justify-between bg-dark-card">
+              <p class="text-xs sm:text-sm text-slate-300 leading-relaxed line-clamp-3">
+                Pengelolaan visual Instagram terstruktur untuk publikasi kegiatan, capaian pelatihan, dan informasi resmi.
+              </p>
+              <div class="mt-5 pt-4 border-t border-dark-border/60 flex items-center justify-between text-xs text-slate-400">
+                <span class="text-brand-400 font-medium">Social Media</span>
+                <span class="group-hover:translate-x-1 transition-transform inline-flex items-center gap-1 text-slate-300">Detail Proyek <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 8. Toba Tenun (@tobatenun) -->
+        <div class="portfolio-item group" data-category="social-media"
+             data-title="Toba Tenun (@tobatenun)"
+             data-category-label="Cultural Social Media Branding"
+             data-year="2020"
+             data-client="Toba Tenun / Yayasan Del"
+             data-role="Graphic Designer"
+             data-desc="Pengembangan tata visual media sosial untuk mempromosikan keindahan, filosofi adat, dan kekayaan ragam motif kain tenun Batak ke audiens kontemporer dan pecinta fashion nusantara."
+             data-tags="Culture Branding, Heritage Fashion, Batak Textiles, Instagram Strategy"
+             data-accent="amber">
+          <div class="bg-dark-card border border-dark-border rounded-2xl overflow-hidden hover:border-brand-500/50 transition-all duration-300 flex flex-col h-full shadow-lg group-hover:-translate-y-1.5 cursor-pointer project-trigger">
+            <div class="h-52 bg-gradient-to-br from-orange-950 via-[#211511] to-[#080b11] p-6 flex flex-col justify-between relative overflow-hidden">
+              <div class="flex items-center justify-between z-10">
+                <span class="text-[11px] font-mono px-2.5 py-1 rounded bg-black/40 border border-orange-500/30 text-orange-300 font-medium">Cultural Brand • 2020</span>
+                <div class="w-8 h-8 rounded-full bg-black/40 border border-white/10 flex items-center justify-center text-white group-hover:bg-brand-500 group-hover:text-black transition-colors">
+                  <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+                </div>
+              </div>
+              <div class="z-10">
+                <span class="text-xs uppercase font-mono tracking-widest text-orange-400">Woven Heritage</span>
+                <h3 class="text-2xl font-display font-extrabold text-white mt-1">@tobatenun</h3>
+                <p class="text-xs text-slate-300">Warisan Tenun Batak Nusantara</p>
+              </div>
+            </div>
+            <div class="p-6 flex-1 flex flex-col justify-between bg-dark-card">
+              <p class="text-xs sm:text-sm text-slate-300 leading-relaxed line-clamp-3">
+                Desain media sosial promosi budaya dan kain tenun Batak Sumatera Utara dengan sentuhan modern dan elegan.
+              </p>
+              <div class="mt-5 pt-4 border-t border-dark-border/60 flex items-center justify-between text-xs text-slate-400">
+                <span class="text-brand-400 font-medium">Social Media</span>
+                <span class="group-hover:translate-x-1 transition-transform inline-flex items-center gap-1 text-slate-300">Detail Proyek <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 9. Gerakan Indonesia Bersih Social Media -->
+        <div class="portfolio-item group" data-category="social-media"
+             data-title="Gerakan Indonesia Bersih Social Campaign"
+             data-category-label="Social Movement Content"
+             data-year="2019"
+             data-client="Gerakan Indonesia Bersih"
+             data-role="Digital Graphic Designer"
+             data-desc="Rancangan feed interaktif, infografis tips diet kantong plastik, visual fakta polusi sungai, dan ajakan aksi sosial bersih-bersih lingkungan yang mudah dibagikan secara viral di media sosial."
+             data-tags="Social Awareness, Eco Advocacy, Infographics, Youth Engagement"
+             data-accent="emerald">
+          <div class="bg-dark-card border border-dark-border rounded-2xl overflow-hidden hover:border-brand-500/50 transition-all duration-300 flex flex-col h-full shadow-lg group-hover:-translate-y-1.5 cursor-pointer project-trigger">
+            <div class="h-52 bg-gradient-to-br from-emerald-950 via-[#0e221b] to-[#080b11] p-6 flex flex-col justify-between relative overflow-hidden">
+              <div class="flex items-center justify-between z-10">
+                <span class="text-[11px] font-mono px-2.5 py-1 rounded bg-black/40 border border-emerald-500/30 text-emerald-300 font-medium">Social Action • 2019</span>
+                <div class="w-8 h-8 rounded-full bg-black/40 border border-white/10 flex items-center justify-center text-white group-hover:bg-brand-500 group-hover:text-black transition-colors">
+                  <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+                </div>
+              </div>
+              <div class="z-10">
+                <span class="text-xs uppercase font-mono tracking-widest text-emerald-400">Advocacy Media</span>
+                <h3 class="text-2xl font-display font-extrabold text-white mt-1">Indonesia Bersih</h3>
+                <p class="text-xs text-slate-300">Visual Kampanye Kesadaran Lingkungan</p>
+              </div>
+            </div>
+            <div class="p-6 flex-1 flex flex-col justify-between bg-dark-card">
+              <p class="text-xs sm:text-sm text-slate-300 leading-relaxed line-clamp-3">
+                Visual kampanye kesadaran lingkungan terarah guna merangkul komunitas muda dan pecinta alam.
+              </p>
+              <div class="mt-5 pt-4 border-t border-dark-border/60 flex items-center justify-between text-xs text-slate-400">
+                <span class="text-brand-400 font-medium">Social Media</span>
+                <span class="group-hover:translate-x-1 transition-transform inline-flex items-center gap-1 text-slate-300">Detail Proyek <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 10. Chill Drinks (@chilldrinks.id) -->
+        <div class="portfolio-item group" data-category="social-media"
+             data-title="Chill Drinks (@chilldrinks.id)"
+             data-category-label="F&B Social Media & Branding"
+             data-year="2018"
+             data-client="Chill Drinks Indonesia"
+             data-role="Brand & Social Media Designer"
+             data-desc="Membangun citra kafe boba, teh susu, dan kopi kekinian yang segar, playful, dan menggugah selera melalui feed Instagram bertema warna pastel cerah, menu digital, story promo harian, dan packaging cup."
+             data-tags="F&B Branding, Boba Cafe, Social Media Feed, Packaging"
+             data-accent="teal">
+          <div class="bg-dark-card border border-dark-border rounded-2xl overflow-hidden hover:border-brand-500/50 transition-all duration-300 flex flex-col h-full shadow-lg group-hover:-translate-y-1.5 cursor-pointer project-trigger">
+            <div class="h-52 bg-gradient-to-br from-teal-950/80 via-[#122629] to-[#080b11] p-6 flex flex-col justify-between relative overflow-hidden">
+              <div class="flex items-center justify-between z-10">
+                <span class="text-[11px] font-mono px-2.5 py-1 rounded bg-black/40 border border-teal-500/30 text-teal-300 font-medium">Beverage Cafe • 2018</span>
+                <div class="w-8 h-8 rounded-full bg-black/40 border border-white/10 flex items-center justify-center text-white group-hover:bg-brand-500 group-hover:text-black transition-colors">
+                  <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+                </div>
+              </div>
+              <div class="z-10">
+                <span class="text-xs uppercase font-mono tracking-widest text-teal-400">F&B Lifestyle</span>
+                <h3 class="text-2xl font-display font-extrabold text-white mt-1">@chilldrinks.id</h3>
+                <p class="text-xs text-slate-300">Kafe Boba, Teh & Kopi Modern</p>
+              </div>
+            </div>
+            <div class="p-6 flex-1 flex flex-col justify-between bg-dark-card">
+              <p class="text-xs sm:text-sm text-slate-300 leading-relaxed line-clamp-3">
+                Desain visual media sosial kafe boba, teh, dan kopi dengan estetika visual segar dan menggoda selera.
+              </p>
+              <div class="mt-5 pt-4 border-t border-dark-border/60 flex items-center justify-between text-xs text-slate-400">
+                <span class="text-brand-400 font-medium">Social Media</span>
+                <span class="group-hover:translate-x-1 transition-transform inline-flex items-center gap-1 text-slate-300">Detail Proyek <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ================= UI DESIGN ================= -->
+        <!-- 11. Royal Canin IIPE -->
+        <div class="portfolio-item group" data-category="ui-design"
+             data-title="Royal Canin Booth UI (IIPE)"
+             data-category-label="Interactive Booth UI & Touchscreen"
+             data-year="2022"
+             data-client="Royal Canin Indonesia"
+             data-role="UI & Interaction Designer"
+             data-desc="Desain antarmuka layar sentuh digital interaktif (Kiosk) di pameran akbar Indonesian International Pet Expo (IIPE). Pengunjung booth dapat menjelajahi panduan nutrisi hewan peliharaan, kuis tipe ras anjing/kucing, dan rekomendasi produk secara intuitif dan menyenangkan."
+             data-tags="Interactive UI, Touchscreen Kiosk, Exhibition Tech, Pet Nutrition, IIPE"
+             data-accent="rose">
+          <div class="bg-dark-card border border-dark-border rounded-2xl overflow-hidden hover:border-brand-500/50 transition-all duration-300 flex flex-col h-full shadow-lg group-hover:-translate-y-1.5 cursor-pointer project-trigger">
+            <div class="h-52 bg-gradient-to-br from-rose-950 via-[#211116] to-[#080b11] p-6 flex flex-col justify-between relative overflow-hidden">
+              <div class="flex items-center justify-between z-10">
+                <span class="text-[11px] font-mono px-2.5 py-1 rounded bg-black/40 border border-rose-500/30 text-rose-300 font-medium">IIPE Expo • 2022</span>
+                <div class="w-8 h-8 rounded-full bg-black/40 border border-white/10 flex items-center justify-center text-white group-hover:bg-brand-500 group-hover:text-black transition-colors">
+                  <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+                </div>
+              </div>
+              <div class="z-10">
+                <span class="text-xs uppercase font-mono tracking-widest text-rose-400">Interactive Booth UI</span>
+                <h3 class="text-2xl font-display font-extrabold text-white mt-1">Royal Canin</h3>
+                <p class="text-xs text-slate-300">Indonesian International Pet Expo</p>
+              </div>
+            </div>
+            <div class="p-6 flex-1 flex flex-col justify-between bg-dark-card">
+              <p class="text-xs sm:text-sm text-slate-300 leading-relaxed line-clamp-3">
+                Desain antarmuka digital interaktif untuk booth di Indonesian International Pet Expo (IIPE).
+              </p>
+              <div class="mt-5 pt-4 border-t border-dark-border/60 flex items-center justify-between text-xs text-slate-400">
+                <span class="text-brand-400 font-medium">UI Design</span>
+                <span class="group-hover:translate-x-1 transition-transform inline-flex items-center gap-1 text-slate-300">Detail Proyek <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 12. Tupon Apps -->
+        <div class="portfolio-item group" data-category="ui-design"
+             data-title="Tupon Apps — Digital Payment UI"
+             data-category-label="Mobile Fintech UI & Accessibility"
+             data-year="2022"
+             data-client="Tupon Fintech"
+             data-role="UI/UX Designer"
+             data-desc="Rancangan antarmuka pengguna aplikasi finansial dan dompet digital yang mengutamakan kesederhanaan, keterbacaan tinggi, serta ramah aksesibilitas. Memastikan alur transfer uang, top-up e-wallet, dan pembayaran tagihan dapat diselesaikan dalam hitungan detik tanpa hambatan."
+             data-tags="Fintech App, Mobile UI, Accessibility, Digital Wallet, Clean Design"
+             data-accent="teal">
+          <div class="bg-dark-card border border-dark-border rounded-2xl overflow-hidden hover:border-brand-500/50 transition-all duration-300 flex flex-col h-full shadow-lg group-hover:-translate-y-1.5 cursor-pointer project-trigger">
+            <div class="h-52 bg-gradient-to-br from-emerald-950 via-[#102421] to-[#080b11] p-6 flex flex-col justify-between relative overflow-hidden">
+              <div class="flex items-center justify-between z-10">
+                <span class="text-[11px] font-mono px-2.5 py-1 rounded bg-black/40 border border-brand-500/30 text-brand-300 font-medium">Fintech UI • 2022</span>
+                <div class="w-8 h-8 rounded-full bg-black/40 border border-white/10 flex items-center justify-center text-white group-hover:bg-brand-500 group-hover:text-black transition-colors">
+                  <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+                </div>
+              </div>
+              <div class="z-10">
+                <span class="text-xs uppercase font-mono tracking-widest text-brand-400">Fintech Platform</span>
+                <h3 class="text-2xl font-display font-extrabold text-white mt-1">Tupon Apps</h3>
+                <p class="text-xs text-slate-300">Clean & Accessible Payment Experience</p>
+              </div>
+            </div>
+            <div class="p-6 flex-1 flex flex-col justify-between bg-dark-card">
+              <p class="text-xs sm:text-sm text-slate-300 leading-relaxed line-clamp-3">
+                Desain UI aplikasi fintech layanan pembayaran digital yang bersih, modern, dan sangat ramah aksesibilitas.
+              </p>
+              <div class="mt-5 pt-4 border-t border-dark-border/60 flex items-center justify-between text-xs text-slate-400">
+                <span class="text-brand-400 font-medium">UI Design</span>
+                <span class="group-hover:translate-x-1 transition-transform inline-flex items-center gap-1 text-slate-300">Detail Proyek <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ================= NFT DESIGN ================= -->
+        <!-- 13. Panda Morgana -->
+        <div class="portfolio-item group" data-category="nft"
+             data-title="Panda Morgana NFT Collection"
+             data-category-label="NFT & Character Concept Art"
+             data-year="2022"
+             data-client="Panda Morgana Project"
+             data-role="Character & Concept Artist"
+             data-desc="Koleksi aset seni digital (NFT) dengan konsep karakter panda futuristik dan surealis. Memadukan ilustrasi ekspresif, atribut tematik unik, dan palet warna neon cyberpunk yang memikat pasar kolektor Web3 internasional."
+             data-tags="NFT, Digital Art, Character Design, Web3, Cyberpunk Panda"
+             data-accent="purple">
+          <div class="bg-dark-card border border-dark-border rounded-2xl overflow-hidden hover:border-brand-500/50 transition-all duration-300 flex flex-col h-full shadow-lg group-hover:-translate-y-1.5 cursor-pointer project-trigger">
+            <div class="h-52 bg-gradient-to-br from-violet-950 via-[#1d122e] to-[#080b11] p-6 flex flex-col justify-between relative overflow-hidden">
+              <div class="flex items-center justify-between z-10">
+                <span class="text-[11px] font-mono px-2.5 py-1 rounded bg-black/40 border border-violet-500/30 text-violet-300 font-medium">Web3 & NFT • 2022</span>
+                <div class="w-8 h-8 rounded-full bg-black/40 border border-white/10 flex items-center justify-center text-white group-hover:bg-brand-500 group-hover:text-black transition-colors">
+                  <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+                </div>
+              </div>
+              <div class="z-10">
+                <span class="text-xs uppercase font-mono tracking-widest text-violet-400">Digital Asset</span>
+                <h3 class="text-2xl font-display font-extrabold text-white mt-1">Panda Morgana</h3>
+                <p class="text-xs text-slate-300">Original Character & Art Collectibles</p>
+              </div>
+            </div>
+            <div class="p-6 flex-1 flex flex-col justify-between bg-dark-card">
+              <p class="text-xs sm:text-sm text-slate-300 leading-relaxed line-clamp-3">
+                Koleksi aset digital dengan desain karakter panda yang kuat, orisinal, serta visual futuristik memikat.
+              </p>
+              <div class="mt-5 pt-4 border-t border-dark-border/60 flex items-center justify-between text-xs text-slate-400">
+                <span class="text-brand-400 font-medium">NFT Design</span>
+                <span class="group-hover:translate-x-1 transition-transform inline-flex items-center gap-1 text-slate-300">Detail Proyek <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ================= YOUTUBE CHANNEL ================= -->
+        <!-- 14. Microxleep Studio -->
+        <div class="portfolio-item group" data-category="youtube"
+             data-title="Microxleep Studio"
+             data-category-label="YouTube Channel & Content Creation"
+             data-year="2025 - 2026"
+             data-client="Microxleep Creative"
+             data-role="Creator, Director & Editor"
+             data-desc="Saluran kreatif YouTube yang berfokus pada dokumentasi koleksi action figure, unboxing mendalam, ulasan engineering mainan, transformasi langkah demi langkah, dan panduan custom mecha Transformers. Mengedepankan thumbnail berestetika tinggi, sinematografi produk tajam, dan editing dinamis."
+             data-tags="YouTube, Transformers Toys, Unboxing, Video Editing, Motion Graphics, Review"
+             data-accent="red">
+          <div class="bg-dark-card border border-dark-border rounded-2xl overflow-hidden hover:border-brand-500/50 transition-all duration-300 flex flex-col h-full shadow-lg group-hover:-translate-y-1.5 cursor-pointer project-trigger">
+            <div class="h-52 bg-gradient-to-br from-rose-950 via-[#271015] to-[#080b11] p-6 flex flex-col justify-between relative overflow-hidden">
+              <div class="flex items-center justify-between z-10">
+                <span class="text-[11px] font-mono px-2.5 py-1 rounded bg-black/40 border border-red-500/30 text-red-300 font-medium">YouTube Studio • 2025-2026</span>
+                <div class="w-8 h-8 rounded-full bg-black/40 border border-white/10 flex items-center justify-center text-white group-hover:bg-brand-500 group-hover:text-black transition-colors">
+                  <i data-lucide="play" class="w-4 h-4"></i>
+                </div>
+              </div>
+              <div class="z-10">
+                <span class="text-xs uppercase font-mono tracking-widest text-red-400">Content Studio</span>
+                <h3 class="text-2xl font-display font-extrabold text-white mt-1">Microxleep Studio</h3>
+                <p class="text-xs text-slate-300">Transformers Review, Unboxing & Tutorial</p>
+              </div>
+            </div>
+            <div class="p-6 flex-1 flex flex-col justify-between bg-dark-card">
+              <p class="text-xs sm:text-sm text-slate-300 leading-relaxed line-clamp-3">
+                Dokumentasi koleksi, unboxing, review mendalam, dan tutorial mainan Transformers dengan visual sinematik.
+              </p>
+              <div class="mt-5 pt-4 border-t border-dark-border/60 flex items-center justify-between text-xs text-slate-400">
+                <span class="text-brand-400 font-medium">YouTube Channel</span>
+                <span class="group-hover:translate-x-1 transition-transform inline-flex items-center gap-1 text-slate-300">Detail Proyek <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ================= LOGO DESIGN SHOWCASE (12 LOGOS) ================= -->
+        <!-- 15. Spartan Logo -->
+        <div class="portfolio-item group" data-category="logo"
+             data-title="Spartan Logo Design"
+             data-category-label="Logo Design & Mark"
+             data-year="2022"
+             data-client="Spartan Fitness & Apparel"
+             data-role="Logo Specialist"
+             data-desc="Rancangan simbol helm Spartan dengan garis tegas geometris bernuansa maskulin dan pantang menyerah. Dioptimalkan untuk bordir gym wear, sablon kaus, dan ikon aplikasi olahraga."
+             data-tags="Logo Design, Geometric Mark, Fitness Branding, Apparel"
+             data-accent="teal">
+          <div class="bg-dark-card border border-dark-border rounded-2xl overflow-hidden hover:border-brand-500/50 transition-all duration-300 flex flex-col h-full shadow-lg group-hover:-translate-y-1.5 cursor-pointer project-trigger">
+            <div class="h-44 bg-gradient-to-br from-slate-900 to-[#0e1724] p-6 flex flex-col items-center justify-center relative">
+              <div class="w-16 h-16 rounded-2xl bg-dark-surface border border-brand-500/30 flex items-center justify-center text-brand-300 group-hover:scale-110 transition-transform">
+                <i data-lucide="shield" class="w-8 h-8"></i>
+              </div>
+              <span class="text-xs font-mono text-brand-400 mt-2">Logomark</span>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between bg-dark-card">
+              <div>
+                <h4 class="font-display font-bold text-lg text-white">Spartan</h4>
+                <p class="text-xs text-slate-400 mt-1">Logo gagah & tangguh untuk bisnis apparel kebugaran.</p>
+              </div>
+              <div class="mt-4 pt-3 border-t border-dark-border/60 flex items-center justify-between text-xs">
+                <span class="text-brand-400">Logo Design</span>
+                <span class="text-slate-400 inline-flex items-center gap-1">Quick View <i data-lucide="eye" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 16. Gaspol Logo -->
+        <div class="portfolio-item group" data-category="logo"
+             data-title="Gaspol Logo Design"
+             data-category-label="Logo Design & Typography"
+             data-year="2021"
+             data-client="Gaspol Delivery & Logistics"
+             data-role="Logo Specialist"
+             data-desc="Eksplorasi tipografi kustom berkecepatan tinggi dengan efek italic dinamis dan aksen petir untuk layanan ekspres on-demand."
+             data-tags="Logo Design, Speed Typography, Logistics, High Energy"
+             data-accent="teal">
+          <div class="bg-dark-card border border-dark-border rounded-2xl overflow-hidden hover:border-brand-500/50 transition-all duration-300 flex flex-col h-full shadow-lg group-hover:-translate-y-1.5 cursor-pointer project-trigger">
+            <div class="h-44 bg-gradient-to-br from-slate-900 to-[#0e1724] p-6 flex flex-col items-center justify-center relative">
+              <div class="w-16 h-16 rounded-2xl bg-dark-surface border border-amber-500/30 flex items-center justify-center text-amber-300 group-hover:scale-110 transition-transform">
+                <i data-lucide="zap" class="w-8 h-8"></i>
+              </div>
+              <span class="text-xs font-mono text-amber-400 mt-2">Wordmark</span>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between bg-dark-card">
+              <div>
+                <h4 class="font-display font-bold text-lg text-white">Gaspol</h4>
+                <p class="text-xs text-slate-400 mt-1">Desain logo lincah, berenergi untuk startup logistik ekspres.</p>
+              </div>
+              <div class="mt-4 pt-3 border-t border-dark-border/60 flex items-center justify-between text-xs">
+                <span class="text-brand-400">Logo Design</span>
+                <span class="text-slate-400 inline-flex items-center gap-1">Quick View <i data-lucide="eye" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 17. Svenson Logo -->
+        <div class="portfolio-item group" data-category="logo"
+             data-title="Svenson Logo Design"
+             data-category-label="Logo Design & Monogram"
+             data-year="2022"
+             data-client="Svenson Studio"
+             data-role="Logo Specialist"
+             data-desc="Monogram huruf 'S' bergaya minimalis Nordik dengan keseimbangan kurva elegan dan presisi grid rasio emas."
+             data-tags="Logo Design, Nordic Minimalist, Monogram, Golden Ratio"
+             data-accent="teal">
+          <div class="bg-dark-card border border-dark-border rounded-2xl overflow-hidden hover:border-brand-500/50 transition-all duration-300 flex flex-col h-full shadow-lg group-hover:-translate-y-1.5 cursor-pointer project-trigger">
+            <div class="h-44 bg-gradient-to-br from-slate-900 to-[#0e1724] p-6 flex flex-col items-center justify-center relative">
+              <div class="w-16 h-16 rounded-2xl bg-dark-surface border border-cyan-500/30 flex items-center justify-center text-cyan-300 group-hover:scale-110 transition-transform font-display font-black text-2xl">
+                S
+              </div>
+              <span class="text-xs font-mono text-cyan-400 mt-2">Monogram</span>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between bg-dark-card">
+              <div>
+                <h4 class="font-display font-bold text-lg text-white">Svenson</h4>
+                <p class="text-xs text-slate-400 mt-1">Monogram modern berstandar estetika Scandinavia.</p>
+              </div>
+              <div class="mt-4 pt-3 border-t border-dark-border/60 flex items-center justify-between text-xs">
+                <span class="text-brand-400">Logo Design</span>
+                <span class="text-slate-400 inline-flex items-center gap-1">Quick View <i data-lucide="eye" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 18. Alien Logo -->
+        <div class="portfolio-item group" data-category="logo"
+             data-title="Alien Logo Design"
+             data-category-label="Logo Design & Sci-Fi Concept"
+             data-year="2023"
+             data-client="Alien Tech Lab"
+             data-role="Logo Specialist"
+             data-desc="Identitas visual futuristik berkonsep kecerdasan luar angkasa dengan garis simetris misterius dan unik."
+             data-tags="Logo Design, Futuristic, Sci-Fi, Tech Lab"
+             data-accent="teal">
+          <div class="bg-dark-card border border-dark-border rounded-2xl overflow-hidden hover:border-brand-500/50 transition-all duration-300 flex flex-col h-full shadow-lg group-hover:-translate-y-1.5 cursor-pointer project-trigger">
+            <div class="h-44 bg-gradient-to-br from-slate-900 to-[#0e1724] p-6 flex flex-col items-center justify-center relative">
+              <div class="w-16 h-16 rounded-2xl bg-dark-surface border border-emerald-500/30 flex items-center justify-center text-emerald-300 group-hover:scale-110 transition-transform">
+                <i data-lucide="sparkle" class="w-8 h-8"></i>
+              </div>
+              <span class="text-xs font-mono text-emerald-400 mt-2">Abstract Mark</span>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between bg-dark-card">
+              <div>
+                <h4 class="font-display font-bold text-lg text-white">Alien</h4>
+                <p class="text-xs text-slate-400 mt-1">Logo konseptual modern untuk komunitas teknologi.</p>
+              </div>
+              <div class="mt-4 pt-3 border-t border-dark-border/60 flex items-center justify-between text-xs">
+                <span class="text-brand-400">Logo Design</span>
+                <span class="text-slate-400 inline-flex items-center gap-1">Quick View <i data-lucide="eye" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 19. Donut Logo -->
+        <div class="portfolio-item group" data-category="logo"
+             data-title="Donut Logo Design"
+             data-category-label="Logo Design & F&B"
+             data-year="2021"
+             data-client="Donut Artisanal Bakery"
+             data-role="Logo Specialist"
+             data-desc="Logo manis dan playful dengan siluet donat lezat berlapis glasir leleh, dirancang untuk toko roti artisan."
+             data-tags="Logo Design, Bakery, Playful, Culinary Mark"
+             data-accent="teal">
+          <div class="bg-dark-card border border-dark-border rounded-2xl overflow-hidden hover:border-brand-500/50 transition-all duration-300 flex flex-col h-full shadow-lg group-hover:-translate-y-1.5 cursor-pointer project-trigger">
+            <div class="h-44 bg-gradient-to-br from-slate-900 to-[#0e1724] p-6 flex flex-col items-center justify-center relative">
+              <div class="w-16 h-16 rounded-2xl bg-dark-surface border border-pink-500/30 flex items-center justify-center text-pink-300 group-hover:scale-110 transition-transform">
+                <i data-lucide="circle-dot" class="w-8 h-8"></i>
+              </div>
+              <span class="text-xs font-mono text-pink-400 mt-2">Pastry Mark</span>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between bg-dark-card">
+              <div>
+                <h4 class="font-display font-bold text-lg text-white">Donut</h4>
+                <p class="text-xs text-slate-400 mt-1">Identitas toko kue artisan yang hangat dan bersahabat.</p>
+              </div>
+              <div class="mt-4 pt-3 border-t border-dark-border/60 flex items-center justify-between text-xs">
+                <span class="text-brand-400">Logo Design</span>
+                <span class="text-slate-400 inline-flex items-center gap-1">Quick View <i data-lucide="eye" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 20. Astro Logo -->
+        <div class="portfolio-item group" data-category="logo"
+             data-title="Astro Logo Design"
+             data-category-label="Logo Design & Space Concept"
+             data-year="2022"
+             data-client="Astro Venture"
+             data-role="Logo Specialist"
+             data-desc="Lambang astronot geometris dan lintasan orbit bintang, menyimbolkan ambisi eksplorasi tanpa batas."
+             data-tags="Logo Design, Space Exploration, Startup, Futuristic"
+             data-accent="teal">
+          <div class="bg-dark-card border border-dark-border rounded-2xl overflow-hidden hover:border-brand-500/50 transition-all duration-300 flex flex-col h-full shadow-lg group-hover:-translate-y-1.5 cursor-pointer project-trigger">
+            <div class="h-44 bg-gradient-to-br from-slate-900 to-[#0e1724] p-6 flex flex-col items-center justify-center relative">
+              <div class="w-16 h-16 rounded-2xl bg-dark-surface border border-brand-500/30 flex items-center justify-center text-brand-300 group-hover:scale-110 transition-transform">
+                <i data-lucide="orbit" class="w-8 h-8"></i>
+              </div>
+              <span class="text-xs font-mono text-brand-400 mt-2">Space Emblem</span>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between bg-dark-card">
+              <div>
+                <h4 class="font-display font-bold text-lg text-white">Astro</h4>
+                <p class="text-xs text-slate-400 mt-1">Logo visioner bertema antariksa untuk bisnis rintisan.</p>
+              </div>
+              <div class="mt-4 pt-3 border-t border-dark-border/60 flex items-center justify-between text-xs">
+                <span class="text-brand-400">Logo Design</span>
+                <span class="text-slate-400 inline-flex items-center gap-1">Quick View <i data-lucide="eye" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 21. Amiero Logo -->
+        <div class="portfolio-item group" data-category="logo"
+             data-title="Amiero Logo Design"
+             data-category-label="Logo Design & Lifestyle"
+             data-year="2023"
+             data-client="Amiero House"
+             data-role="Logo Specialist"
+             data-desc="Logotype mewah bernuansa modern serif yang memancarkan ketenangan, kenyamanan, dan keanggunan."
+             data-tags="Logo Design, Modern Serif, Hospitality, Lifestyle"
+             data-accent="teal">
+          <div class="bg-dark-card border border-dark-border rounded-2xl overflow-hidden hover:border-brand-500/50 transition-all duration-300 flex flex-col h-full shadow-lg group-hover:-translate-y-1.5 cursor-pointer project-trigger">
+            <div class="h-44 bg-gradient-to-br from-slate-900 to-[#0e1724] p-6 flex flex-col items-center justify-center relative">
+              <div class="w-16 h-16 rounded-2xl bg-dark-surface border border-teal-500/30 flex items-center justify-center text-teal-300 group-hover:scale-110 transition-transform font-display font-bold text-xl">
+                Am
+              </div>
+              <span class="text-xs font-mono text-teal-400 mt-2">Serif Type</span>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between bg-dark-card">
+              <div>
+                <h4 class="font-display font-bold text-lg text-white">Amiero</h4>
+                <p class="text-xs text-slate-400 mt-1">Identitas lifestyle & hospitality bernuansa elegan.</p>
+              </div>
+              <div class="mt-4 pt-3 border-t border-dark-border/60 flex items-center justify-between text-xs">
+                <span class="text-brand-400">Logo Design</span>
+                <span class="text-slate-400 inline-flex items-center gap-1">Quick View <i data-lucide="eye" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 22. Xleep Logo -->
+        <div class="portfolio-item group" data-category="logo"
+             data-title="Xleep Logo Design"
+             data-category-label="Logo Design & Wellness"
+             data-year="2022"
+             data-client="Xleep Tech"
+             data-role="Logo Specialist"
+             data-desc="Simbol bulan sabit berpadu dengan gelombang tidur REM yang menenangkan, dirancang untuk produk kualitas tidur."
+             data-tags="Logo Design, Sleep Wellness, Restful, Minimal"
+             data-accent="teal">
+          <div class="bg-dark-card border border-dark-border rounded-2xl overflow-hidden hover:border-brand-500/50 transition-all duration-300 flex flex-col h-full shadow-lg group-hover:-translate-y-1.5 cursor-pointer project-trigger">
+            <div class="h-44 bg-gradient-to-br from-slate-900 to-[#0e1724] p-6 flex flex-col items-center justify-center relative">
+              <div class="w-16 h-16 rounded-2xl bg-dark-surface border border-indigo-500/30 flex items-center justify-center text-indigo-300 group-hover:scale-110 transition-transform">
+                <i data-lucide="moon" class="w-8 h-8"></i>
+              </div>
+              <span class="text-xs font-mono text-indigo-400 mt-2">Sleep Wave</span>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between bg-dark-card">
+              <div>
+                <h4 class="font-display font-bold text-lg text-white">Xleep</h4>
+                <p class="text-xs text-slate-400 mt-1">Logo produk wellness dan perbaikan pola tidur cerdas.</p>
+              </div>
+              <div class="mt-4 pt-3 border-t border-dark-border/60 flex items-center justify-between text-xs">
+                <span class="text-brand-400">Logo Design</span>
+                <span class="text-slate-400 inline-flex items-center gap-1">Quick View <i data-lucide="eye" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 23. Chill Logo -->
+        <div class="portfolio-item group" data-category="logo"
+             data-title="Chill Logo Design"
+             data-category-label="Logo Design & Refreshment"
+             data-year="2021"
+             data-client="Chill Beverage Lab"
+             data-role="Logo Specialist"
+             data-desc="Karakter es batu mencair dengan senyuman santai, merepresentasikan momen bersantai bersama segelas minuman segar."
+             data-tags="Logo Design, Ice Refreshment, Chill Vibes, Casual"
+             data-accent="teal">
+          <div class="bg-dark-card border border-dark-border rounded-2xl overflow-hidden hover:border-brand-500/50 transition-all duration-300 flex flex-col h-full shadow-lg group-hover:-translate-y-1.5 cursor-pointer project-trigger">
+            <div class="h-44 bg-gradient-to-br from-slate-900 to-[#0e1724] p-6 flex flex-col items-center justify-center relative">
+              <div class="w-16 h-16 rounded-2xl bg-dark-surface border border-cyan-500/30 flex items-center justify-center text-cyan-300 group-hover:scale-110 transition-transform">
+                <i data-lucide="smile" class="w-8 h-8"></i>
+              </div>
+              <span class="text-xs font-mono text-cyan-400 mt-2">Chill Icon</span>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between bg-dark-card">
+              <div>
+                <h4 class="font-display font-bold text-lg text-white">Chill</h4>
+                <p class="text-xs text-slate-400 mt-1">Logo kasual dan santai untuk lini minuman segar.</p>
+              </div>
+              <div class="mt-4 pt-3 border-t border-dark-border/60 flex items-center justify-between text-xs">
+                <span class="text-brand-400">Logo Design</span>
+                <span class="text-slate-400 inline-flex items-center gap-1">Quick View <i data-lucide="eye" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 24. Rajmen Logo -->
+        <div class="portfolio-item group" data-category="logo"
+             data-title="Rajmen Logo Design"
+             data-category-label="Logo Design & Ramen Bowl"
+             data-year="2022"
+             data-client="Rajmen Japanese Noodle Bar"
+             data-role="Logo Specialist"
+             data-desc="Kombinasi mangkuk ramen kepulan asap dan sumpit bermahkota raja, menyiratkan rasa otentik yang merajai lidah."
+             data-tags="Logo Design, Japanese Culinary, Ramen Bar, Kanji Fusion"
+             data-accent="teal">
+          <div class="bg-dark-card border border-dark-border rounded-2xl overflow-hidden hover:border-brand-500/50 transition-all duration-300 flex flex-col h-full shadow-lg group-hover:-translate-y-1.5 cursor-pointer project-trigger">
+            <div class="h-44 bg-gradient-to-br from-slate-900 to-[#0e1724] p-6 flex flex-col items-center justify-center relative">
+              <div class="w-16 h-16 rounded-2xl bg-dark-surface border border-red-500/30 flex items-center justify-center text-red-300 group-hover:scale-110 transition-transform">
+                <i data-lucide="soup" class="w-8 h-8"></i>
+              </div>
+              <span class="text-xs font-mono text-red-400 mt-2">Ramen King</span>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between bg-dark-card">
+              <div>
+                <h4 class="font-display font-bold text-lg text-white">Rajmen</h4>
+                <p class="text-xs text-slate-400 mt-1">Logo restoran ramen Jepang dengan sentuhan megah.</p>
+              </div>
+              <div class="mt-4 pt-3 border-t border-dark-border/60 flex items-center justify-between text-xs">
+                <span class="text-brand-400">Logo Design</span>
+                <span class="text-slate-400 inline-flex items-center gap-1">Quick View <i data-lucide="eye" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 25. Lauk Pauk Logo -->
+        <div class="portfolio-item group" data-category="logo"
+             data-title="Lauk Pauk Logo Design"
+             data-category-label="Logo Design & Indonesian Cuisine"
+             data-year="2021"
+             data-client="Lauk Pauk Nusantara"
+             data-role="Logo Specialist"
+             data-desc="Sentuhan ornamen daun pisang dan wajan tradisional Indonesia, merefleksikan kelezatan masakan rumahan kaya rempah."
+             data-tags="Logo Design, Indonesian Food, Traditional Taste, Warm Palette"
+             data-accent="teal">
+          <div class="bg-dark-card border border-dark-border rounded-2xl overflow-hidden hover:border-brand-500/50 transition-all duration-300 flex flex-col h-full shadow-lg group-hover:-translate-y-1.5 cursor-pointer project-trigger">
+            <div class="h-44 bg-gradient-to-br from-slate-900 to-[#0e1724] p-6 flex flex-col items-center justify-center relative">
+              <div class="w-16 h-16 rounded-2xl bg-dark-surface border border-amber-500/30 flex items-center justify-center text-amber-300 group-hover:scale-110 transition-transform">
+                <i data-lucide="flame" class="w-8 h-8"></i>
+              </div>
+              <span class="text-xs font-mono text-amber-400 mt-2">Nusantara Food</span>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between bg-dark-card">
+              <div>
+                <h4 class="font-display font-bold text-lg text-white">Lauk Pauk</h4>
+                <p class="text-xs text-slate-400 mt-1">Identitas kuliner nusantara yang ramah selera keluarga.</p>
+              </div>
+              <div class="mt-4 pt-3 border-t border-dark-border/60 flex items-center justify-between text-xs">
+                <span class="text-brand-400">Logo Design</span>
+                <span class="text-slate-400 inline-flex items-center gap-1">Quick View <i data-lucide="eye" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 26. Chill Drinks Logo -->
+        <div class="portfolio-item group" data-category="logo"
+             data-title="Chill Drinks Official Logo"
+             data-category-label="Logo Design & Cafe Branding"
+             data-year="2018"
+             data-client="Chill Drinks Group"
+             data-role="Logo Specialist"
+             data-desc="Logo primer dengan paduan sedotan spiral, mutiara boba, dan tipografi melengkung yang sangat ikonik di cup minuman."
+             data-tags="Logo Design, Boba Cafe, Signature Cup Mark, Fresh Drinks"
+             data-accent="teal">
+          <div class="bg-dark-card border border-dark-border rounded-2xl overflow-hidden hover:border-brand-500/50 transition-all duration-300 flex flex-col h-full shadow-lg group-hover:-translate-y-1.5 cursor-pointer project-trigger">
+            <div class="h-44 bg-gradient-to-br from-slate-900 to-[#0e1724] p-6 flex flex-col items-center justify-center relative">
+              <div class="w-16 h-16 rounded-2xl bg-dark-surface border border-brand-500/30 flex items-center justify-center text-brand-300 group-hover:scale-110 transition-transform">
+                <i data-lucide="coffee" class="w-8 h-8"></i>
+              </div>
+              <span class="text-xs font-mono text-brand-400 mt-2">Signature Brand</span>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between bg-dark-card">
+              <div>
+                <h4 class="font-display font-bold text-lg text-white">Chill Drinks</h4>
+                <p class="text-xs text-slate-400 mt-1">Logo resmi kafe minuman boba dan kopi terkemuka.</p>
+              </div>
+              <div class="mt-4 pt-3 border-t border-dark-border/60 flex items-center justify-between text-xs">
+                <span class="text-brand-400">Logo Design</span>
+                <span class="text-slate-400 inline-flex items-center gap-1">Quick View <i data-lucide="eye" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Portfolio Bottom Notice -->
+      <div class="mt-14 text-center">
+        <p class="text-xs sm:text-sm text-slate-400">
+          Membutuhkan studi kasus spesifik atau katalog portfolio PDF beresolusi tinggi? 
+          <a href="#contact" class="text-brand-400 hover:text-brand-300 underline font-medium ml-1">Hubungi Irsyad langsung</a>.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================
+       PROJECT DETAIL MODAL (INTERACTIVE QUICK VIEW)
+       ======================================================== -->
+  <div id="project-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 sm:p-6 bg-black/80 backdrop-blur-md transition-opacity duration-300 opacity-0">
+    <div class="relative bg-dark-card border border-dark-border w-full max-w-2xl rounded-3xl p-6 sm:p-8 shadow-2xl overflow-hidden transform scale-95 transition-transform duration-300">
+      
+      <!-- Close button -->
+      <button id="close-modal" aria-label="Tutup modal" class="absolute top-5 right-5 p-2 rounded-xl bg-dark-surface text-slate-400 hover:text-white border border-dark-border transition-colors">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+
+      <!-- Modal Content Header -->
+      <div class="pr-12">
+        <div class="flex items-center gap-2 mb-2">
+          <span id="modal-category" class="text-xs font-mono uppercase px-2.5 py-0.5 rounded bg-brand-500/10 text-brand-300 border border-brand-500/20 font-semibold">Category</span>
+          <span id="modal-year" class="text-xs font-mono text-slate-400">2022</span>
+        </div>
+        <h3 id="modal-title" class="text-2xl sm:text-3xl font-display font-extrabold text-white">Project Title</h3>
+      </div>
+
+      <!-- Modal Meta Details -->
+      <div class="grid grid-cols-2 gap-3 my-5 p-3.5 rounded-xl bg-dark-surface/60 border border-dark-border text-xs">
+        <div>
+          <span class="text-slate-400 block">Klien / Lembaga:</span>
+          <strong id="modal-client" class="text-white font-semibold">Client Name</strong>
+        </div>
+        <div>
+          <span class="text-slate-400 block">Peran Desainer:</span>
+          <strong id="modal-role" class="text-teal-300 font-semibold">Visual Specialist</strong>
+        </div>
+      </div>
+
+      <!-- Modal Description -->
+      <div class="space-y-3 text-slate-300 text-sm leading-relaxed max-h-48 overflow-y-auto pr-2 custom-scrollbar">
+        <p id="modal-desc">Project comprehensive narrative and description goes here...</p>
+      </div>
+
+      <!-- Modal Tags -->
+      <div class="mt-6 pt-4 border-t border-dark-border flex flex-wrap items-center justify-between gap-3">
+        <div id="modal-tags" class="flex flex-wrap gap-1.5">
+          <!-- Dynamically inserted tag chips -->
+        </div>
+        <a href="#contact" id="modal-contact-btn" class="px-4 py-2 rounded-xl bg-brand-500 text-slate-950 font-semibold text-xs inline-flex items-center gap-1.5 hover:bg-brand-400 transition-colors">
+          <span>Diskusikan Proyek Serupa</span>
+          <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ========================================================
+       6. CONTACT & FOOTER SECTION
+       ======================================================== -->
+  <section id="contact" class="py-24 relative overflow-hidden">
+    <!-- Ambient glow behind contact -->
+    <div class="absolute bottom-0 left-1/2 -translate-x-1/2 w-full max-w-4xl h-80 bg-brand-500/10 rounded-full blur-[140px] pointer-events-none -z-10"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-brand-500/10 border border-brand-500/30 text-brand-400 text-xs font-semibold uppercase tracking-wider mb-3">
+          <i data-lucide="mail" class="w-3.5 h-3.5"></i>
+          <span>Get in Touch</span>
+        </div>
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-display font-extrabold text-white tracking-tight">
+          Mari Wujudkan Ide Visual Anda Bersama
+        </h2>
+        <p class="mt-3 text-sm sm:text-base text-slate-400">
+          Siap berkolaborasi untuk proyek Brand Identity, Logo Design, Social Media Management, UI interaktif, maupun konsultasi kreatif.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+        
+        <!-- Contact Info & Quick Direct Links (5 cols) -->
+        <div class="lg:col-span-5 space-y-6">
+          
+          <!-- Card: Phone / WhatsApp -->
+          <div class="bg-dark-card border border-dark-border rounded-2xl p-6 group hover:border-brand-500/40 transition-all flex items-start justify-between">
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 rounded-xl bg-brand-500/10 border border-brand-500/25 flex items-center justify-center text-brand-400 shrink-0">
+                <i data-lucide="phone" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <span class="text-xs text-slate-400 uppercase tracking-wider font-medium">Telepon / WhatsApp</span>
+                <p class="text-base sm:text-lg font-bold text-white mt-0.5">+62 812-8263-6429</p>
+                <div class="mt-2 flex items-center gap-2">
+                  <a href="https://wa.me/6281282636429?text=Halo%20Irsyad,%20saya%20tertarik%20bekerjasama%20untuk%20proyek%20desain." target="_blank" rel="noopener noreferrer" class="text-xs text-brand-400 hover:text-brand-300 font-semibold inline-flex items-center gap-1">
+                    Chat WhatsApp <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+                  </a>
+                  <span class="text-slate-600">•</span>
+                  <button class="copy-btn text-xs text-slate-400 hover:text-white" data-copy="+6281282636429" title="Salin Nomor">
+                    Salin Nomor
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card: Email -->
+          <div class="bg-dark-card border border-dark-border rounded-2xl p-6 group hover:border-brand-500/40 transition-all flex items-start justify-between">
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 rounded-xl bg-teal-500/10 border border-teal-500/25 flex items-center justify-center text-teal-400 shrink-0">
+                <i data-lucide="mail" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <span class="text-xs text-slate-400 uppercase tracking-wider font-medium">Email Resmi</span>
+                <p class="text-base sm:text-lg font-bold text-white mt-0.5">ridhairsyad89@gmail.com</p>
+                <div class="mt-2 flex items-center gap-2">
+                  <a href="mailto:ridhairsyad89@gmail.com" class="text-xs text-brand-400 hover:text-brand-300 font-semibold inline-flex items-center gap-1">
+                    Kirim Email <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+                  </a>
+                  <span class="text-slate-600">•</span>
+                  <button class="copy-btn text-xs text-slate-400 hover:text-white" data-copy="ridhairsyad89@gmail.com" title="Salin Email">
+                    Salin Email
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card: Social Platforms & External Links -->
+          <div class="bg-dark-card border border-dark-border rounded-2xl p-6">
+            <h4 class="text-sm font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+              <i data-lucide="share-2" class="w-4 h-4 text-brand-400"></i> Platform & Media Sosial
+            </h4>
+            <div class="grid grid-cols-2 gap-3 text-xs">
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="p-3 rounded-xl bg-dark-surface border border-dark-border hover:border-brand-500/30 flex items-center gap-2.5 text-slate-300 hover:text-white transition-colors">
+                <i data-lucide="linkedin" class="w-4 h-4 text-sky-400"></i>
+                <span>LinkedIn Profile</span>
+              </a>
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="p-3 rounded-xl bg-dark-surface border border-dark-border hover:border-brand-500/30 flex items-center gap-2.5 text-slate-300 hover:text-white transition-colors">
+                <i data-lucide="instagram" class="w-4 h-4 text-pink-400"></i>
+                <span>Instagram Feed</span>
+              </a>
+              <a href="https://behance.net" target="_blank" rel="noopener noreferrer" class="p-3 rounded-xl bg-dark-surface border border-dark-border hover:border-brand-500/30 flex items-center gap-2.5 text-slate-300 hover:text-white transition-colors">
+                <i data-lucide="dribbble" class="w-4 h-4 text-blue-400"></i>
+                <span>Behance Portfolio</span>
+              </a>
+              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="p-3 rounded-xl bg-dark-surface border border-dark-border hover:border-brand-500/30 flex items-center gap-2.5 text-slate-300 hover:text-white transition-colors">
+                <i data-lucide="youtube" class="w-4 h-4 text-red-400"></i>
+                <span>Microxleep Studio</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Availability Tag -->
+          <div class="p-4 rounded-xl bg-brand-950/40 border border-brand-800/40 text-xs text-slate-300 flex items-center gap-3">
+            <span class="w-3 h-3 rounded-full bg-emerald-400 animate-ping"></span>
+            <span>Waktu Respons Cepat: Biasanya membalas dalam waktu &lt; 24 jam kerja.</span>
+          </div>
+
+        </div>
+
+        <!-- Contact Form (7 cols) -->
+        <div class="lg:col-span-7 bg-dark-card border border-dark-border rounded-3xl p-6 sm:p-8 shadow-xl">
+          <h3 class="text-xl font-display font-bold text-white mb-2">Kirim Pesan Langsung</h3>
+          <p class="text-xs sm:text-sm text-slate-400 mb-6">Isi formulir singkat di bawah ini untuk memulai obrolan proyek atau konsultasi kebutuhan visual Anda.</p>
+
+          <form id="contact-form" class="space-y-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <!-- Name -->
+              <div>
+                <label for="name" class="block text-xs font-semibold text-slate-300 mb-1.5 uppercase tracking-wider">Nama Anda *</label>
+                <input type="text" id="name" name="name" required placeholder="Contoh: Budi Santoso"
+                       class="w-full px-4 py-3 rounded-xl bg-dark-surface border border-dark-border focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500 text-white placeholder-slate-500 text-sm transition-all">
+              </div>
+              <!-- Email -->
+              <div>
+                <label for="email" class="block text-xs font-semibold text-slate-300 mb-1.5 uppercase tracking-wider">Alamat Email *</label>
+                <input type="email" id="email" name="email" required placeholder="budi@perusahaan.com"
+                       class="w-full px-4 py-3 rounded-xl bg-dark-surface border border-dark-border focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500 text-white placeholder-slate-500 text-sm transition-all">
+              </div>
+            </div>
+
+            <!-- Subject / Project Type -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label for="project-type" class="block text-xs font-semibold text-slate-300 mb-1.5 uppercase tracking-wider">Kategori Proyek</label>
+                <select id="project-type" name="project-type"
+                        class="w-full px-4 py-3 rounded-xl bg-dark-surface border border-dark-border focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500 text-white text-sm transition-all">
+                  <option value="brand-identity">Brand Identity & Event</option>
+                  <option value="logo-design">Logo Design</option>
+                  <option value="social-media">Social Media Visuals</option>
+                  <option value="ui-design">UI Design & Interactive</option>
+                  <option value="nft-art">NFT / Digital Artwork</option>
+                  <option value="other">Konsultasi / Lainnya</option>
+                </select>
+              </div>
+              <div>
+                <label for="phone" class="block text-xs font-semibold text-slate-300 mb-1.5 uppercase tracking-wider">No. WhatsApp (Opsional)</label>
+                <input type="tel" id="phone" name="phone" placeholder="+62 812..."
+                       class="w-full px-4 py-3 rounded-xl bg-dark-surface border border-dark-border focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500 text-white placeholder-slate-500 text-sm transition-all">
+              </div>
+            </div>
+
+            <!-- Message -->
+            <div>
+              <label for="message" class="block text-xs font-semibold text-slate-300 mb-1.5 uppercase tracking-wider">Detail Pesan atau Brief Proyek *</label>
+              <textarea id="message" name="message" rows="4" required placeholder="Ceritakan tentang proyek Anda, timeline, dan tujuan visual yang ingin dicapai..."
+                        class="w-full px-4 py-3 rounded-xl bg-dark-surface border border-dark-border focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500 text-white placeholder-slate-500 text-sm transition-all"></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" id="submit-btn" class="w-full py-4 rounded-xl font-display font-bold text-slate-950 bg-gradient-to-r from-brand-400 to-teal-300 hover:from-brand-300 hover:to-teal-200 transition-all duration-300 shadow-lg shadow-brand-500/20 flex items-center justify-center gap-2 group text-sm sm:text-base">
+              <span>Kirim Pesan Sekarang</span>
+              <i data-lucide="send" class="w-4 h-4 transition-transform group-hover:translate-x-1"></i>
+            </button>
+          </form>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================
+       7. FOOTER
+       ======================================================== -->
+  <footer class="border-t border-dark-border/80 bg-[#06080e] py-12 text-slate-400 text-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+        
+        <!-- Brand Info -->
+        <div class="flex flex-col sm:flex-row items-center sm:items-start md:items-center gap-3">
+          <img src="assets/logo.png" alt="IRSYAD.GD Logo" class="h-7 w-auto object-contain opacity-90" />
+          <div class="text-center sm:text-left">
+            <p class="text-[11px] text-slate-400">Senior Graphic Designer & Visual Specialist (5+ Years Experience)</p>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="flex flex-wrap items-center justify-center gap-6 text-slate-400">
+          <a href="#home" class="hover:text-brand-300 transition-colors">Home</a>
+          <a href="#about" class="hover:text-brand-300 transition-colors">About</a>
+          <a href="#experience" class="hover:text-brand-300 transition-colors">Experience</a>
+          <a href="#portfolio" class="hover:text-brand-300 transition-colors">Portfolio</a>
+          <a href="#skills" class="hover:text-brand-300 transition-colors">Skills</a>
+          <a href="#contact" class="hover:text-brand-300 transition-colors">Contact</a>
+        </div>
+
+        <!-- Copyright -->
+        <div class="text-center md:text-right">
+          <p>© 2026 Muhammad Ridha Irsyad. All rights reserved.</p>
+          <p class="text-[10px] text-slate-500 mt-0.5">Designed with precision, clean aesthetics & modern UX.</p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification element -->
+  <div id="toast" class="fixed bottom-6 right-6 z-50 transform translate-y-20 opacity-0 transition-all duration-300 pointer-events-none flex items-center gap-3 px-4 py-3 rounded-xl bg-dark-card border border-brand-500/50 shadow-2xl text-xs sm:text-sm text-white">
+    <i data-lucide="check-circle" class="w-5 h-5 text-brand-400"></i>
+    <span id="toast-msg">Pesan berhasil dikirim!</span>
+  </div>
+
+  <!-- Scripts -->
+  <script src="main.js"></script>
+</body>
+</html>
+
