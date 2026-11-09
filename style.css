@@ -51,6 +51,13 @@
   scrollbar-width: none;  /* Firefox */
 }
 
+/* Glassmorphism Navbar (50% Transparan & Efek Blur di Belakang Navbar) */
+#navbar {
+  background-color: rgba(8, 11, 17, 0.5) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+}
+
 /* Active Nav Link */
 .nav-link.active {
   color: #2dd4bf;

@@ -16,11 +16,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
   window.addEventListener('scroll', () => {
     if (window.scrollY > 40) {
-      navbar.classList.add('shadow-xl', 'bg-[#080b11]/95', 'border-dark-border/80');
-      navbar.classList.remove('bg-[#080b11]/80');
+      navbar.classList.add('shadow-lg', 'border-dark-border/80');
+      navbar.classList.remove('border-dark-border/40');
     } else {
-      navbar.classList.remove('shadow-xl', 'bg-[#080b11]/95', 'border-dark-border/80');
-      navbar.classList.add('bg-[#080b11]/80');
+      navbar.classList.remove('shadow-lg', 'border-dark-border/80');
+      navbar.classList.add('border-dark-border/40');
     }
 
     // Scroll spy
